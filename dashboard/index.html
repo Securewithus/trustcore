@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TrustCore Dashboard</title>
+<style>
+  body { font-family: "Segoe UI", Arial, sans-serif; margin: 0; background: #0f172a; color: #e2e8f0; }
+  header { padding: 20px 32px; border-bottom: 1px solid #1e293b; }
+  header h1 { margin: 0; font-size: 22px; }
+  header p { margin: 4px 0 0; color: #94a3b8; font-size: 14px; }
+  main { padding: 24px 32px; max-width: 1100px; margin: 0 auto; }
+  .cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }
+  .card { background: #1e293b; border-radius: 10px; padding: 16px; }
+  .card .label { font-size: 13px; color: #94a3b8; }
+  .card .value { font-size: 28px; font-weight: 600; margin-top: 4px; }
+  .red .value { color: #f87171; } .amber .value { color: #fbbf24; } .green .value { color: #4ade80; }
+  h2 { font-size: 16px; margin: 28px 0 12px; }
+  .filters button { background: #1e293b; color: #e2e8f0; border: 1px solid #334155; padding: 6px 14px;
+                    border-radius: 6px; cursor: pointer; margin-right: 6px; }
+  .filters button.active { background: #334155; border-color: #64748b; }
+  .row { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-bottom: 1px solid #1e293b; cursor: pointer; }
+  .row:hover { background: #1e293b; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .high_risk { background: #f87171; } .review { background: #fbbf24; } .trusted { background: #4ade80; }
+  .id { flex: 1; } .muted { color: #94a3b8; }
+  .explain { display: none; padding: 0 12px 12px 34px; color: #94a3b8; font-size: 13px; border-bottom: 1px solid #1e293b; }
+  .explain.open { display: block; }
+  .form { background: #1e293b; border-radius: 10px; padding: 16px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .form label { font-size: 12px; color: #94a3b8; display: block; margin-bottom: 4px; }
+  .form input { width: 100%; box-sizing: border-box; padding: 8px; background: #0f172a; color: #e2e8f0;
+                border: 1px solid #334155; border-radius: 6px; }
+  .form button { grid-column: span 3; padding: 10px; background: #3b82f6; color: white; border: 0;
+                 border-radius: 6px; font-size: 15px; cursor: pointer; }
+  #result { margin-top: 12px; padding: 14px; border-radius: 10px; background: #1e293b; display: none; }
+  #error { color: #f87171; margin: 12px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>TrustCore</h1>
+  <p>Real-time trust scoring for payments</p>
+</header>
+
+<main>
+  <div id="error"></div>
+
+  <div class="cards">
+    <div class="card"><div class="label">Total transactions</div><div class="value" id="total">-</div></div>
+    <div class="card red"><div class="label">High risk</div><div class="value" id="high_risk">-</div></div>
+    <div class="card amber"><div class="label">Needs review</div><div class="value" id="review">-</div></div>
+    <div class="card green"><div class="label">Trusted</div><div class="value" id="trusted">-</div></div>
+  </div>
+
+  <h2>Score a transaction live</h2>
+  <div class="form">
+    <div><label>Amount (Rs)</label><input id="amount" type="number" value="25000"></div>
+    <div><label>User's usual amount</label><input id="avg" type="number" value="800"></div>
+    <div><label>Hour of day (0-23)</label><input id="hour" type="number" value="3"></div>
+    <div><label>Transaction city</label><input id="city" value="Kolkata"></div>
+    <div><label>User's home city</label><input id="home" value="Lucknow"></div>
+    <div><label>Transactions in last hour</label><input id="count" type="number" value="6"></div>
+    <button onclick="scoreLive()">Score this transaction</button>
+  </div>
+  <div id="result"></div>
+
+  <h2>Recent transactions (click a row for the reason)</h2>
+  <div class="filters">
+    <button class="active" data-flag="">All</button>
+    <button data-flag="high_risk">High risk</button>
+    <button data-flag="review">Review</button>
+    <button data-flag="trusted">Trusted</button>
+  </div>
+  <div id="list"></div>
+</main>
+
+<script>
+  const API = "http://localhost:5000/api";
+  let currentFlag = "";
+
+  async function loadSummary() {
+    const d = await (await fetch(API + "/summary")).json();
+    ["total", "high_risk", "review", "trusted"].forEach(k => {
+      document.getElementById(k).textContent = d[k].toLocaleString();
+    });
+  }
+
+  async function loadTransactions() {
+    let url = API + "/transactions?limit=50";
+    if (currentFlag) url += "&flag=" + currentFlag;
+    const rows = await (await fetch(url)).json();
+    const list = document.getElementById("list");
+    list.innerHTML = "";
+    rows.forEach(t => {
+      const row = document.createElement("div");
+      row.className = "row";
+      row.innerHTML = `
+        <span class="dot ${t.flag}"></span>
+        <span class="id">${t.transaction_id} <span class="muted">· ${t.user_id}</span></span>
+        <span class="muted" style="width:90px">${t.city}</span>
+        <span style="width:90px;text-align:right">Rs ${Number(t.amount).toLocaleString("en-IN")}</span>
+        <strong style="width:50px;text-align:right">${t.trust_score}</strong>`;
+      const explain = document.createElement("div");
+      explain.className = "explain";
+      explain.textContent = t.explanation;
+      row.onclick = () => explain.classList.toggle("open");
+      list.appendChild(row);
+      list.appendChild(explain);
+    });
+  }
+
+  async function scoreLive() {
+    const payload = {
+      user_id: "live_user",
+      amount: Number(document.getElementById("amount").value),
+      user_avg_amount: Number(document.getElementById("avg").value),
+      hour_of_day: Number(document.getElementById("hour").value),
+      city: document.getElementById("city").value,
+      home_city: document.getElementById("home").value,
+      txn_count_last_hour: Number(document.getElementById("count").value),
+    };
+    const res = await fetch(API + "/score", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    const d = await res.json();
+    const box = document.getElementById("result");
+    box.style.display = "block";
+    box.innerHTML = `<span class="dot ${d.flag}" style="display:inline-block"></span>
+      <strong> Trust score: ${d.trust_score} (${d.flag.replace("_", " ")})</strong>
+      <div class="muted" style="margin-top:6px">${d.explanation}</div>`;
+  }
+
+  document.querySelectorAll(".filters button").forEach(btn => {
+    btn.onclick = () => {
+      document.querySelectorAll(".filters button").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentFlag = btn.dataset.flag;
+      loadTransactions();
+    };
+  });
+
+  Promise.all([loadSummary(), loadTransactions()]).catch(() => {
+    document.getElementById("error").textContent =
+      "Cannot reach the API. Is 'python app.py' running in the backend folder?";
+  });
+</script>
+</body>
+</html>
