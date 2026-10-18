@@ -1,0 +1,801 @@
+document_id,doc_type,issue_date,expiry_date,face_match_score,font_consistency_score,doc_number_valid,is_fraud_actual,fraud_pattern_actual,validity_days,trust_score,rule_reasons,flag,explanation
+DOC00000,PAN,2019-06-06,2029-06-03,0.86,0.97,1,0,none,3650,88.9,[],trusted,No document anomalies detected
+DOC00001,Voter ID,2016-01-21,2025-01-18,0.91,0.42,1,1,font_inconsistency,3285,39.6,['Document font/formatting inconsistency detected (score 0.42)'],high_risk,Document font/formatting inconsistency detected (score 0.42)
+DOC00002,Voter ID,2017-05-29,2017-03-16,0.99,0.93,1,1,expiry_before_issue,-74,33.1,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00003,Aadhaar,2017-09-12,2022-09-11,0.92,0.86,1,0,none,1825,91.9,[],trusted,No document anomalies detected
+DOC00004,Aadhaar,2024-04-09,2033-04-07,0.89,0.92,1,0,none,3285,98.8,[],trusted,No document anomalies detected
+DOC00005,PAN,2022-01-27,2032-01-25,0.95,0.97,1,0,none,3650,91.7,[],trusted,No document anomalies detected
+DOC00006,Aadhaar,2021-06-21,2030-06-19,0.9,0.86,1,0,none,3285,95.7,[],trusted,No document anomalies detected
+DOC00007,PAN,2015-07-10,2024-07-07,0.89,0.99,1,0,none,3285,93.9,[],trusted,No document anomalies detected
+DOC00008,Passport,2019-09-13,2025-09-11,0.88,0.92,1,0,none,2190,98.3,[],trusted,No document anomalies detected
+DOC00009,Voter ID,2018-06-17,2027-06-15,0.98,0.85,1,0,none,3285,85.6,[],trusted,No document anomalies detected
+DOC00010,PAN,2016-02-27,2025-02-24,0.93,0.99,1,0,none,3285,94.3,[],trusted,No document anomalies detected
+DOC00011,PAN,2019-03-06,2024-03-04,0.88,0.93,1,0,none,1825,95.3,[],trusted,No document anomalies detected
+DOC00012,Aadhaar,2021-04-30,2026-04-29,0.98,0.87,1,0,none,1825,88.2,[],trusted,No document anomalies detected
+DOC00013,Driving License,2022-08-18,2031-08-16,0.92,0.96,1,0,none,3285,97.3,[],trusted,No document anomalies detected
+DOC00014,Passport,2020-03-22,2029-03-20,0.94,0.92,1,0,none,3285,98.5,[],trusted,No document anomalies detected
+DOC00015,Passport,2018-05-12,2024-05-10,0.88,0.92,1,0,none,2190,98.3,[],trusted,No document anomalies detected
+DOC00016,PAN,2015-12-02,2024-11-29,0.9,0.92,1,0,none,3285,98.8,[],trusted,No document anomalies detected
+DOC00017,Driving License,2024-10-24,2031-10-23,0.9,0.98,1,0,none,2555,96.9,[],trusted,No document anomalies detected
+DOC00018,Passport,2021-10-30,2026-10-29,0.96,0.9,1,0,none,1825,92.9,[],trusted,No document anomalies detected
+DOC00019,Driving License,2016-11-06,2023-11-05,0.93,0.89,1,0,none,2555,98.5,[],trusted,No document anomalies detected
+DOC00020,Driving License,2019-09-24,2024-09-22,0.91,0.9,1,0,none,1825,95.3,[],trusted,No document anomalies detected
+DOC00021,Aadhaar,2023-07-29,2032-07-26,0.94,0.91,1,0,none,3285,97.9,[],trusted,No document anomalies detected
+DOC00022,Passport,2018-10-25,2028-10-22,0.91,0.96,1,0,none,3650,93.8,[],trusted,No document anomalies detected
+DOC00023,Driving License,2021-07-03,2029-07-01,0.91,0.99,1,0,none,2920,94.6,[],trusted,No document anomalies detected
+DOC00024,Aadhaar,2018-01-10,2026-01-08,0.88,0.96,1,0,none,2920,97.4,[],trusted,No document anomalies detected
+DOC00025,Aadhaar,2015-09-06,2025-09-03,0.91,0.91,1,0,none,3650,94.8,[],trusted,No document anomalies detected
+DOC00026,Voter ID,2022-08-22,2030-08-20,0.94,0.93,1,0,none,2920,99.2,[],trusted,No document anomalies detected
+DOC00027,Driving License,2024-12-12,2034-12-10,0.91,0.85,1,0,none,3650,87.2,[],trusted,No document anomalies detected
+DOC00028,Driving License,2018-12-26,2024-12-24,0.86,0.96,1,0,none,2190,94.7,[],trusted,No document anomalies detected
+DOC00029,Driving License,2015-08-30,2021-08-28,0.92,0.95,1,0,none,2190,99.0,[],trusted,No document anomalies detected
+DOC00030,PAN,2023-04-13,2029-04-11,0.98,0.95,1,0,none,2190,92.7,[],trusted,No document anomalies detected
+DOC00031,Driving License,2015-11-27,2021-11-25,0.86,0.9,1,0,none,2190,94.7,[],trusted,No document anomalies detected
+DOC00032,Voter ID,2018-02-12,2024-02-11,0.93,0.89,1,0,none,2190,97.6,[],trusted,No document anomalies detected
+DOC00033,Voter ID,2018-02-14,2028-02-12,0.99,0.99,1,0,none,3650,80.3,[],trusted,No document anomalies detected
+DOC00034,Passport,2022-08-28,2030-08-26,0.97,0.92,1,0,none,2920,97.9,[],trusted,No document anomalies detected
+DOC00035,PAN,2015-12-06,2021-12-04,0.97,0.87,1,0,none,2190,94.5,[],trusted,No document anomalies detected
+DOC00036,PAN,2015-02-19,2023-02-17,0.89,0.92,1,0,none,2920,99.8,[],trusted,No document anomalies detected
+DOC00037,PAN,2017-12-12,2024-12-10,0.95,0.92,1,0,none,2555,99.0,[],trusted,No document anomalies detected
+DOC00038,Driving License,2020-12-29,2029-12-27,0.87,0.3,1,1,font_inconsistency,3285,35.5,['Document font/formatting inconsistency detected (score 0.3)'],high_risk,Document font/formatting inconsistency detected (score 0.3)
+DOC00039,PAN,2022-09-29,2031-09-27,0.9,0.9,1,0,none,3285,98.1,[],trusted,No document anomalies detected
+DOC00040,Aadhaar,2020-02-14,2030-02-11,0.87,0.91,1,0,none,3650,92.7,[],trusted,No document anomalies detected
+DOC00041,Driving License,2019-06-19,2027-06-17,0.91,0.97,1,0,none,2920,97.2,[],trusted,No document anomalies detected
+DOC00042,Driving License,2022-02-11,2030-02-09,0.96,0.93,1,0,none,2920,98.2,[],trusted,No document anomalies detected
+DOC00043,Aadhaar,2017-05-05,2025-05-03,0.91,0.97,1,0,none,2920,97.2,[],trusted,No document anomalies detected
+DOC00044,Passport,2021-09-26,2026-09-25,0.97,0.95,1,0,none,1825,91.9,[],trusted,No document anomalies detected
+DOC00045,Voter ID,2016-09-11,2025-09-09,0.96,0.99,1,0,none,3285,92.3,[],trusted,No document anomalies detected
+DOC00046,Passport,2021-11-18,2026-11-17,0.86,0.98,1,0,none,1825,90.4,[],trusted,No document anomalies detected
+DOC00047,PAN,2021-11-20,2029-11-18,0.89,0.92,1,0,none,2920,99.8,[],trusted,No document anomalies detected
+DOC00048,Passport,2018-11-23,2027-11-21,0.96,0.96,1,0,none,3285,95.4,[],trusted,No document anomalies detected
+DOC00049,Aadhaar,2016-04-17,2024-04-15,0.87,0.95,1,0,none,2920,97.6,[],trusted,No document anomalies detected
+DOC00050,Driving License,2020-05-21,2028-05-19,0.86,0.9,1,0,none,2920,96.1,[],trusted,No document anomalies detected
+DOC00051,PAN,2016-02-23,2026-02-20,0.96,0.91,1,0,none,3650,93.1,[],trusted,No document anomalies detected
+DOC00052,Passport,2020-05-14,2030-05-12,0.93,0.96,1,0,none,3650,93.2,[],trusted,No document anomalies detected
+DOC00053,Aadhaar,2017-04-20,2026-04-18,0.96,0.96,1,0,none,3285,95.4,[],trusted,No document anomalies detected
+DOC00054,Voter ID,2015-04-21,2024-04-18,0.85,0.91,1,0,none,3285,92.4,[],trusted,No document anomalies detected
+DOC00055,Aadhaar,2022-10-22,2029-10-20,0.91,0.86,1,0,none,2555,95.7,[],trusted,No document anomalies detected
+DOC00056,PAN,2018-12-27,2024-12-25,0.93,0.94,1,0,none,2190,98.6,[],trusted,No document anomalies detected
+DOC00057,Voter ID,2018-09-12,2028-09-09,0.97,0.99,1,0,none,3650,86.5,[],trusted,No document anomalies detected
+DOC00058,PAN,2024-01-15,2030-01-13,0.87,0.88,1,0,none,2190,94.6,[],trusted,No document anomalies detected
+DOC00059,PAN,2017-03-29,2026-03-27,0.94,0.87,1,0,none,3285,95.9,[],trusted,No document anomalies detected
+DOC00060,Aadhaar,2015-04-25,2022-04-23,0.88,0.94,1,0,none,2555,98.7,[],trusted,No document anomalies detected
+DOC00061,PAN,2022-10-07,2031-10-05,0.87,0.97,1,0,none,3285,95.1,[],trusted,No document anomalies detected
+DOC00062,Driving License,2024-01-25,2034-01-22,0.97,0.86,1,0,none,3650,89.0,[],trusted,No document anomalies detected
+DOC00063,Passport,2015-11-26,2021-11-24,0.92,0.97,1,0,none,2190,97.2,[],trusted,No document anomalies detected
+DOC00064,Driving License,2017-03-16,2024-03-14,0.99,0.89,1,0,none,2555,91.5,[],trusted,No document anomalies detected
+DOC00065,Voter ID,2021-11-04,2026-11-03,0.87,0.98,1,0,none,1825,92.0,[],trusted,No document anomalies detected
+DOC00066,Passport,2023-12-20,2033-12-17,0.98,0.88,1,0,none,3650,88.3,[],trusted,No document anomalies detected
+DOC00067,Aadhaar,2019-05-11,2029-05-08,0.91,0.96,1,0,none,3650,93.8,[],trusted,No document anomalies detected
+DOC00068,Driving License,2024-12-20,2030-12-19,0.97,0.88,1,0,none,2190,94.6,[],trusted,No document anomalies detected
+DOC00069,Passport,2015-12-22,2025-12-19,0.94,0.97,1,0,none,3650,92.4,[],trusted,No document anomalies detected
+DOC00070,Driving License,2023-05-03,2028-05-01,0.93,0.87,1,0,none,1825,93.1,[],trusted,No document anomalies detected
+DOC00071,PAN,2016-06-04,2021-06-03,0.85,0.89,1,0,none,1825,88.7,[],trusted,No document anomalies detected
+DOC00072,Driving License,2024-01-17,2034-01-14,0.96,0.86,1,0,none,3650,89.9,[],trusted,No document anomalies detected
+DOC00073,Voter ID,2020-04-26,2030-04-24,0.85,0.9,1,0,none,3650,87.1,[],trusted,No document anomalies detected
+DOC00074,PAN,2021-02-25,2030-02-23,0.86,0.87,1,0,none,3285,92.6,[],trusted,No document anomalies detected
+DOC00075,Aadhaar,2023-12-19,2033-12-16,0.85,0.93,1,0,none,3650,88.5,[],trusted,No document anomalies detected
+DOC00076,Voter ID,2023-05-28,2029-05-26,0.95,0.91,1,0,none,2190,97.6,[],trusted,No document anomalies detected
+DOC00077,PAN,2024-04-06,2030-04-05,0.87,0.9,1,0,none,2190,96.4,[],trusted,No document anomalies detected
+DOC00078,PAN,2018-04-14,2027-04-12,0.41,0.99,1,1,face_mismatch,3285,37.7,['Face match score is low (0.41)'],high_risk,Face match score is low (0.41)
+DOC00079,Voter ID,2019-09-13,2025-09-11,0.99,0.89,1,0,none,2190,88.7,[],trusted,No document anomalies detected
+DOC00080,Passport,2020-02-20,2030-02-17,0.85,0.97,1,0,none,3650,86.2,[],trusted,No document anomalies detected
+DOC00081,Voter ID,2019-09-19,2028-09-16,0.98,0.92,1,0,none,3285,94.0,[],trusted,No document anomalies detected
+DOC00082,PAN,2020-11-14,2029-11-12,0.96,0.98,1,0,none,3285,93.7,[],trusted,No document anomalies detected
+DOC00083,Driving License,2023-09-16,2032-09-13,0.41,0.98,1,1,face_mismatch,3285,38.3,['Face match score is low (0.41)'],high_risk,Face match score is low (0.41)
+DOC00084,PAN,2016-12-06,2024-12-04,0.21,0.89,1,1,face_mismatch,2920,31.8,['Face match score is low (0.21)'],high_risk,Face match score is low (0.21)
+DOC00085,Aadhaar,2021-03-29,2026-03-28,0.89,0.87,1,0,none,1825,93.6,[],trusted,No document anomalies detected
+DOC00086,Voter ID,2020-12-13,2029-12-11,0.98,0.85,1,0,none,3285,85.6,[],trusted,No document anomalies detected
+DOC00087,Aadhaar,2024-11-26,2033-11-24,0.94,0.86,1,0,none,3285,94.8,[],trusted,No document anomalies detected
+DOC00088,PAN,2018-02-08,2017-11-20,0.9,0.91,1,1,expiry_before_issue,-80,40.3,['Expiry date precedes or matches issue date'],review,Expiry date precedes or matches issue date
+DOC00089,Voter ID,2015-04-25,2020-04-23,0.88,0.93,1,0,none,1825,95.3,[],trusted,No document anomalies detected
+DOC00090,Voter ID,2020-09-01,2029-08-30,0.92,0.9,1,0,none,3285,97.6,[],trusted,No document anomalies detected
+DOC00091,Passport,2020-01-27,2029-01-24,0.95,0.87,1,0,none,3285,95.6,[],trusted,No document anomalies detected
+DOC00092,Driving License,2020-09-10,2026-09-09,0.88,0.9,1,0,none,2190,97.0,[],trusted,No document anomalies detected
+DOC00093,Passport,2021-04-10,2027-04-09,0.9,0.88,1,0,none,2190,96.7,[],trusted,No document anomalies detected
+DOC00094,PAN,2019-09-03,2024-09-01,0.98,0.97,1,0,none,1825,87.6,[],trusted,No document anomalies detected
+DOC00095,Passport,2015-10-25,2025-10-22,0.86,0.91,1,0,none,3650,90.9,[],trusted,No document anomalies detected
+DOC00096,Aadhaar,2017-05-21,2027-05-19,0.88,0.92,1,0,none,3650,94.8,[],trusted,No document anomalies detected
+DOC00097,Aadhaar,2023-09-18,2029-09-16,0.89,0.93,1,0,none,2190,98.8,[],trusted,No document anomalies detected
+DOC00098,Passport,2016-08-08,2023-08-07,0.98,0.91,1,0,none,2555,94.8,[],trusted,No document anomalies detected
+DOC00099,Driving License,2017-06-18,2027-06-16,0.94,0.94,1,0,none,3650,94.4,[],trusted,No document anomalies detected
+DOC00100,Driving License,2024-12-03,2032-12-01,0.96,0.86,1,0,none,2920,95.2,[],trusted,No document anomalies detected
+DOC00101,PAN,2016-10-23,2026-10-21,0.95,0.99,1,0,none,3650,88.8,[],trusted,No document anomalies detected
+DOC00102,Voter ID,2019-07-13,2026-07-11,0.93,0.89,1,0,none,2555,98.5,[],trusted,No document anomalies detected
+DOC00103,Passport,2018-07-28,2023-07-27,0.94,0.96,1,0,none,1825,93.4,[],trusted,No document anomalies detected
+DOC00104,Aadhaar,2018-10-16,2027-10-14,0.94,0.87,1,0,none,3285,95.9,[],trusted,No document anomalies detected
+DOC00105,Aadhaar,2019-04-24,2026-04-22,0.99,0.99,1,0,none,2555,86.0,[],trusted,No document anomalies detected
+DOC00106,Passport,2020-09-29,2025-09-28,0.91,0.94,1,0,none,1825,96.2,[],trusted,No document anomalies detected
+DOC00107,PAN,2024-10-29,2029-10-28,0.86,1.0,1,0,none,1825,83.7,[],trusted,No document anomalies detected
+DOC00108,Passport,2015-06-12,2021-06-10,0.96,0.95,1,0,none,2190,96.2,[],trusted,No document anomalies detected
+DOC00109,PAN,2024-03-11,2032-03-09,0.96,0.88,1,0,none,2920,97.2,[],trusted,No document anomalies detected
+DOC00110,Passport,2019-07-21,2025-07-19,0.89,0.89,1,0,none,2190,97.5,[],trusted,No document anomalies detected
+DOC00111,Voter ID,2021-05-26,2029-05-24,0.93,0.86,1,0,none,2920,96.1,[],trusted,No document anomalies detected
+DOC00112,Aadhaar,2018-02-17,2023-02-16,0.98,0.92,1,0,none,1825,89.6,[],trusted,No document anomalies detected
+DOC00113,PAN,2019-10-09,2024-10-07,0.91,0.87,1,0,none,1825,94.5,[],trusted,No document anomalies detected
+DOC00114,Aadhaar,2022-02-11,2027-02-10,0.95,0.97,1,0,none,1825,91.8,[],trusted,No document anomalies detected
+DOC00115,Aadhaar,2021-10-27,2027-10-26,0.94,0.89,1,0,none,2190,97.2,[],trusted,No document anomalies detected
+DOC00116,Aadhaar,2020-02-02,2025-01-31,0.96,0.87,1,0,none,1825,92.1,[],trusted,No document anomalies detected
+DOC00117,Voter ID,2019-09-08,2026-09-06,0.97,0.94,1,0,none,2555,96.8,[],trusted,No document anomalies detected
+DOC00118,Aadhaar,2020-11-28,2030-11-26,0.89,0.93,1,0,none,3650,94.8,[],trusted,No document anomalies detected
+DOC00119,Aadhaar,2016-10-23,2023-10-22,0.94,0.89,1,0,none,2555,98.4,[],trusted,No document anomalies detected
+DOC00120,PAN,2018-07-01,2027-06-29,0.97,0.33,1,1,font_inconsistency,3285,34.7,['Document font/formatting inconsistency detected (score 0.33)'],high_risk,Document font/formatting inconsistency detected (score 0.33)
+DOC00121,Passport,2019-12-31,2028-12-28,0.97,0.98,1,0,none,3285,92.2,[],trusted,No document anomalies detected
+DOC00122,Passport,2018-11-22,2023-11-21,0.86,0.95,1,0,none,1825,92.9,[],trusted,No document anomalies detected
+DOC00123,Aadhaar,2015-03-04,2020-03-02,0.89,0.96,1,0,none,1825,94.4,[],trusted,No document anomalies detected
+DOC00124,Voter ID,2017-02-15,2026-02-13,0.93,0.92,1,0,none,3285,98.8,[],trusted,No document anomalies detected
+DOC00125,Driving License,2016-03-11,2026-03-09,0.98,0.86,1,0,none,3650,86.4,[],trusted,No document anomalies detected
+DOC00126,Driving License,2022-05-13,2030-05-11,0.93,0.9,1,0,none,2920,99.3,[],trusted,No document anomalies detected
+DOC00127,Driving License,2020-09-06,2027-09-05,0.85,0.96,1,0,none,2555,92.7,[],trusted,No document anomalies detected
+DOC00128,PAN,2018-11-04,2024-11-02,0.93,0.98,1,0,none,2190,95.5,[],trusted,No document anomalies detected
+DOC00129,PAN,2019-07-16,2026-07-14,0.93,0.9,1,0,none,2555,98.7,[],trusted,No document anomalies detected
+DOC00130,PAN,2015-02-28,2020-02-27,0.99,0.87,1,0,none,1825,84.7,[],trusted,No document anomalies detected
+DOC00131,Passport,2019-10-31,2025-10-29,0.86,0.96,1,0,none,2190,94.7,[],trusted,No document anomalies detected
+DOC00132,Driving License,2024-10-05,2033-10-03,0.9,0.31,1,1,font_inconsistency,3285,36.1,['Document font/formatting inconsistency detected (score 0.31)'],high_risk,Document font/formatting inconsistency detected (score 0.31)
+DOC00133,Passport,2015-07-05,2023-07-03,0.97,0.9,1,0,none,2920,97.2,[],trusted,No document anomalies detected
+DOC00134,Passport,2020-01-01,2024-12-30,0.97,0.95,1,0,none,1825,91.9,[],trusted,No document anomalies detected
+DOC00135,Passport,2021-02-18,2028-02-17,0.9,0.86,1,0,none,2555,95.4,[],trusted,No document anomalies detected
+DOC00136,Passport,2017-06-11,2024-06-09,0.88,1.0,1,0,none,2555,90.4,[],trusted,No document anomalies detected
+DOC00137,Passport,2019-04-13,2024-04-11,0.91,0.87,1,0,none,1825,94.5,[],trusted,No document anomalies detected
+DOC00138,Voter ID,2022-05-11,2028-05-09,0.89,0.98,1,0,none,2190,95.7,[],trusted,No document anomalies detected
+DOC00139,Aadhaar,2016-01-08,2023-01-06,0.87,0.97,1,0,none,2555,96.7,[],trusted,No document anomalies detected
+DOC00140,PAN,2019-06-25,2028-06-22,0.87,0.99,1,0,none,3285,92.9,[],trusted,No document anomalies detected
+DOC00141,Aadhaar,2018-05-12,2028-05-09,0.92,0.21,1,1,font_inconsistency,3650,30.4,['Document font/formatting inconsistency detected (score 0.21)'],high_risk,Document font/formatting inconsistency detected (score 0.21)
+DOC00142,Voter ID,2020-12-07,2026-12-06,0.98,0.9,1,0,none,2190,92.6,[],trusted,No document anomalies detected
+DOC00143,Voter ID,2019-05-15,2026-05-13,0.95,0.93,1,0,none,2555,98.3,[],trusted,No document anomalies detected
+DOC00144,Driving License,2016-09-04,2023-09-03,0.86,0.87,1,0,none,2555,93.7,[],trusted,No document anomalies detected
+DOC00145,PAN,2015-06-29,2025-06-26,0.87,0.87,1,0,none,3650,89.8,[],trusted,No document anomalies detected
+DOC00146,Driving License,2023-03-25,2033-03-22,0.86,0.86,1,0,none,3650,87.0,[],trusted,No document anomalies detected
+DOC00147,PAN,2020-11-15,2029-11-13,0.98,0.86,1,0,none,3285,90.8,[],trusted,No document anomalies detected
+DOC00148,Aadhaar,2024-04-07,2034-04-05,0.92,0.87,1,0,none,3650,91.6,[],trusted,No document anomalies detected
+DOC00149,PAN,2015-12-15,2020-12-13,0.88,0.96,1,0,none,1825,93.8,[],trusted,No document anomalies detected
+DOC00150,Passport,2016-03-05,2024-03-03,0.98,0.92,0,1,invalid_number_format,2920,31.3,['Document number fails format/checksum validation'],high_risk,Document number fails format/checksum validation
+DOC00151,Aadhaar,2022-01-09,2031-01-07,0.85,1.0,1,0,none,3285,83.8,[],trusted,No document anomalies detected
+DOC00152,Driving License,2017-12-16,2022-12-15,0.86,0.91,1,0,none,1825,93.1,[],trusted,No document anomalies detected
+DOC00153,Aadhaar,2023-05-23,2032-05-20,0.93,0.98,1,0,none,3285,95.5,[],trusted,No document anomalies detected
+DOC00154,Aadhaar,2022-05-24,2031-05-22,0.97,0.94,1,0,none,3285,95.4,[],trusted,No document anomalies detected
+DOC00155,Driving License,2017-10-29,2022-10-28,0.91,0.98,1,0,none,1825,93.6,[],trusted,No document anomalies detected
+DOC00156,PAN,2023-03-07,2029-03-05,0.97,0.98,1,0,none,2190,92.3,[],trusted,No document anomalies detected
+DOC00157,Driving License,2020-07-16,2028-07-14,0.95,0.86,1,0,none,2920,95.4,[],trusted,No document anomalies detected
+DOC00158,Passport,2023-08-08,2028-08-06,0.89,0.92,1,0,none,1825,95.8,[],trusted,No document anomalies detected
+DOC00159,PAN,2015-11-14,2024-11-11,0.92,0.97,1,0,none,3285,96.5,[],trusted,No document anomalies detected
+DOC00160,Passport,2022-04-22,2032-04-19,0.88,0.95,1,0,none,3650,93.5,[],trusted,No document anomalies detected
+DOC00161,Voter ID,2021-05-14,2027-05-13,0.9,0.97,1,0,none,2190,96.9,[],trusted,No document anomalies detected
+DOC00162,Aadhaar,2020-06-12,2030-06-10,0.88,0.34,1,1,font_inconsistency,3650,36.5,['Document font/formatting inconsistency detected (score 0.34)'],high_risk,Document font/formatting inconsistency detected (score 0.34)
+DOC00163,PAN,2022-07-30,2030-07-28,0.86,0.88,1,0,none,2920,94.6,[],trusted,No document anomalies detected
+DOC00164,Voter ID,2018-03-15,2026-03-13,0.98,0.9,1,0,none,2920,94.4,[],trusted,No document anomalies detected
+DOC00165,Aadhaar,2021-02-27,2027-02-26,0.98,0.93,1,0,none,2190,93.0,[],trusted,No document anomalies detected
+DOC00166,Aadhaar,2020-04-21,2025-04-20,0.86,0.97,1,0,none,1825,91.7,[],trusted,No document anomalies detected
+DOC00167,Aadhaar,2024-03-12,2033-03-10,0.86,0.97,1,0,none,3285,93.3,[],trusted,No document anomalies detected
+DOC00168,Driving License,2018-01-05,2026-01-03,0.85,0.95,1,0,none,2920,93.4,[],trusted,No document anomalies detected
+DOC00169,PAN,2015-11-02,2024-10-30,0.87,0.9,1,0,none,3285,96.5,[],trusted,No document anomalies detected
+DOC00170,Voter ID,2017-12-08,2024-12-06,0.98,0.92,1,0,none,2555,95.5,[],trusted,No document anomalies detected
+DOC00171,Voter ID,2018-02-19,2023-02-18,0.94,0.96,1,0,none,1825,93.4,[],trusted,No document anomalies detected
+DOC00172,PAN,2020-08-01,2028-07-30,0.87,0.98,1,0,none,2920,94.9,[],trusted,No document anomalies detected
+DOC00173,PAN,2015-01-15,2023-01-13,0.98,0.87,1,0,none,2920,93.1,[],trusted,No document anomalies detected
+DOC00174,Driving License,2018-05-21,2028-05-18,0.93,0.89,1,0,none,3650,93.7,[],trusted,No document anomalies detected
+DOC00175,Passport,2019-03-21,2026-03-19,0.95,0.85,1,0,none,2555,89.3,[],trusted,No document anomalies detected
+DOC00176,Passport,2015-01-08,2022-01-06,0.92,0.97,1,0,none,2555,97.7,[],trusted,No document anomalies detected
+DOC00177,Driving License,2016-05-06,2022-05-05,0.95,0.87,1,0,none,2190,95.3,[],trusted,No document anomalies detected
+DOC00178,Passport,2017-11-03,2024-11-01,0.97,0.89,1,0,none,2555,96.6,[],trusted,No document anomalies detected
+DOC00179,Driving License,2024-10-03,2033-10-01,0.96,0.92,1,0,none,3285,97.2,[],trusted,No document anomalies detected
+DOC00180,Driving License,2023-06-23,2030-06-21,0.87,0.96,1,0,none,2555,97.0,[],trusted,No document anomalies detected
+DOC00181,Passport,2016-02-21,2021-02-19,0.96,0.95,1,0,none,1825,92.8,[],trusted,No document anomalies detected
+DOC00182,Passport,2022-02-13,2028-02-12,0.99,0.89,1,0,none,2190,88.7,[],trusted,No document anomalies detected
+DOC00183,Passport,2019-11-22,2028-11-19,0.88,0.87,1,0,none,3285,95.6,[],trusted,No document anomalies detected
+DOC00184,Passport,2023-10-21,2031-10-19,0.93,0.91,1,0,none,2920,99.7,[],trusted,No document anomalies detected
+DOC00185,Driving License,2024-10-26,2033-10-24,0.9,0.92,1,0,none,3285,98.8,[],trusted,No document anomalies detected
+DOC00186,Aadhaar,2015-07-22,2025-07-19,0.89,0.85,1,0,none,3650,85.8,[],trusted,No document anomalies detected
+DOC00187,Voter ID,2023-06-10,2029-06-08,0.92,0.89,1,0,none,2190,97.5,[],trusted,No document anomalies detected
+DOC00188,Passport,2020-06-11,2025-06-10,0.91,0.99,1,0,none,1825,91.6,[],trusted,No document anomalies detected
+DOC00189,Voter ID,2016-06-05,2022-06-04,0.88,0.95,1,0,none,2190,98.0,[],trusted,No document anomalies detected
+DOC00190,Passport,2018-02-28,2025-02-26,0.94,0.89,1,0,none,2555,98.4,[],trusted,No document anomalies detected
+DOC00191,Passport,2019-07-22,2029-07-19,0.92,1.0,1,0,none,3650,85.7,[],trusted,No document anomalies detected
+DOC00192,Driving License,2021-04-01,2031-03-30,0.9,0.96,1,0,none,3650,93.1,[],trusted,No document anomalies detected
+DOC00193,PAN,2022-03-19,2028-03-17,0.97,0.9,1,0,none,2190,95.7,[],trusted,No document anomalies detected
+DOC00194,Voter ID,2024-02-08,2032-02-06,0.99,0.94,1,0,none,2920,91.0,[],trusted,No document anomalies detected
+DOC00195,Driving License,2018-09-25,2026-09-23,0.92,0.96,1,0,none,2920,98.2,[],trusted,No document anomalies detected
+DOC00196,Voter ID,2017-02-27,2023-02-26,0.91,0.96,1,0,none,2190,98.2,[],trusted,No document anomalies detected
+DOC00197,Passport,2021-03-26,2026-03-25,0.89,0.99,1,0,none,1825,91.0,[],trusted,No document anomalies detected
+DOC00198,Passport,2017-11-24,2026-11-22,0.93,0.89,1,0,none,3285,97.6,[],trusted,No document anomalies detected
+DOC00199,Aadhaar,2023-05-29,2031-05-27,0.91,0.98,1,0,none,2920,96.1,[],trusted,No document anomalies detected
+DOC00200,Voter ID,2017-05-10,2025-05-08,0.96,0.92,1,0,none,2920,98.8,[],trusted,No document anomalies detected
+DOC00201,Aadhaar,2020-08-02,2027-08-01,0.9,0.91,1,0,none,2555,99.6,[],trusted,No document anomalies detected
+DOC00202,Passport,2016-05-30,2026-05-28,0.99,0.87,1,0,none,3650,84.1,[],trusted,No document anomalies detected
+DOC00203,PAN,2016-01-15,2023-01-13,0.97,0.98,1,0,none,2555,94.1,[],trusted,No document anomalies detected
+DOC00204,Driving License,2019-06-26,2029-06-23,0.88,0.9,1,0,none,3650,93.4,[],trusted,No document anomalies detected
+DOC00205,Passport,2024-07-08,2029-07-07,0.93,0.97,1,0,none,1825,93.6,[],trusted,No document anomalies detected
+DOC00206,Driving License,2022-12-16,2030-12-14,0.98,1.0,1,0,none,2920,84.4,[],trusted,No document anomalies detected
+DOC00207,Driving License,2015-01-01,2019-12-31,0.89,0.88,1,0,none,1825,93.7,[],trusted,No document anomalies detected
+DOC00208,Voter ID,2024-08-04,2032-08-02,0.92,0.93,1,0,none,2920,99.4,[],trusted,No document anomalies detected
+DOC00209,PAN,2023-10-13,2028-10-11,0.94,0.87,1,0,none,1825,92.8,[],trusted,No document anomalies detected
+DOC00210,PAN,2020-11-09,2030-11-07,0.94,0.99,1,0,none,3650,89.7,[],trusted,No document anomalies detected
+DOC00211,Driving License,2015-12-15,2024-12-12,0.98,0.99,1,0,none,3285,88.8,[],trusted,No document anomalies detected
+DOC00212,Aadhaar,2023-10-10,2029-10-08,0.98,0.99,1,0,none,2190,87.1,[],trusted,No document anomalies detected
+DOC00213,Aadhaar,2022-03-28,2032-03-25,0.86,0.99,1,0,none,3650,85.9,[],trusted,No document anomalies detected
+DOC00214,PAN,2022-01-10,2029-01-08,0.89,0.9,1,0,none,2555,98.5,[],trusted,No document anomalies detected
+DOC00215,Driving License,2022-11-01,2027-10-31,0.91,0.99,1,0,none,1825,91.6,[],trusted,No document anomalies detected
+DOC00216,Passport,2020-11-18,2029-11-16,0.93,0.9,1,0,none,3285,97.8,[],trusted,No document anomalies detected
+DOC00217,Passport,2017-07-04,2026-07-02,0.9,0.99,1,0,none,3285,94.2,[],trusted,No document anomalies detected
+DOC00218,Voter ID,2018-05-20,2025-05-18,0.97,0.87,0,1,invalid_number_format,2555,30.8,['Document number fails format/checksum validation'],high_risk,Document number fails format/checksum validation
+DOC00219,PAN,2020-04-30,2029-04-28,0.88,0.91,1,0,none,3285,97.9,[],trusted,No document anomalies detected
+DOC00220,PAN,2015-04-30,2023-04-28,0.88,0.93,1,0,none,2920,98.8,[],trusted,No document anomalies detected
+DOC00221,Passport,2015-08-15,2020-08-13,0.88,0.94,1,0,none,1825,95.1,[],trusted,No document anomalies detected
+DOC00222,Driving License,2015-11-29,2022-11-27,0.98,0.98,1,0,none,2555,92.0,[],trusted,No document anomalies detected
+DOC00223,Driving License,2019-02-25,2025-02-23,0.86,0.88,1,0,none,2190,93.0,[],trusted,No document anomalies detected
+DOC00224,Passport,2023-01-21,2031-01-19,0.91,0.95,1,0,none,2920,99.1,[],trusted,No document anomalies detected
+DOC00225,Driving License,2017-03-22,2022-03-21,0.9,0.89,1,0,none,1825,94.9,[],trusted,No document anomalies detected
+DOC00226,Voter ID,2015-10-04,2021-10-02,0.9,0.88,1,0,none,2190,96.7,[],trusted,No document anomalies detected
+DOC00227,PAN,2018-06-30,2024-06-28,0.97,0.95,1,0,none,2190,95.5,[],trusted,No document anomalies detected
+DOC00228,PAN,2017-12-21,2024-12-19,0.91,0.96,1,0,none,2555,98.3,[],trusted,No document anomalies detected
+DOC00229,Voter ID,2020-07-23,2029-07-21,0.92,0.93,1,0,none,3285,98.4,[],trusted,No document anomalies detected
+DOC00230,PAN,2020-06-09,2028-06-07,0.9,0.92,1,0,none,2920,99.9,[],trusted,No document anomalies detected
+DOC00231,Aadhaar,2021-09-02,2027-09-01,0.99,0.97,1,0,none,2190,87.3,[],trusted,No document anomalies detected
+DOC00232,Aadhaar,2017-05-22,2022-05-21,0.97,0.87,1,0,none,1825,91.3,[],trusted,No document anomalies detected
+DOC00233,PAN,2019-08-29,2024-08-27,0.92,0.91,1,0,none,1825,95.7,[],trusted,No document anomalies detected
+DOC00234,PAN,2019-05-31,2027-05-29,0.86,0.91,1,0,none,2920,96.9,[],trusted,No document anomalies detected
+DOC00235,Passport,2023-03-21,2028-03-19,0.86,0.89,1,0,none,1825,91.7,[],trusted,No document anomalies detected
+DOC00236,PAN,2018-09-10,2024-09-08,0.96,0.95,1,0,none,2190,96.2,[],trusted,No document anomalies detected
+DOC00237,Voter ID,2023-05-15,2031-05-13,0.95,0.86,1,0,none,2920,95.4,[],trusted,No document anomalies detected
+DOC00238,Driving License,2024-05-30,2031-05-29,0.87,0.21,1,1,font_inconsistency,2555,31.5,['Document font/formatting inconsistency detected (score 0.21)'],high_risk,Document font/formatting inconsistency detected (score 0.21)
+DOC00239,Aadhaar,2015-01-12,2020-01-11,0.86,0.87,1,0,none,1825,90.3,[],trusted,No document anomalies detected
+DOC00240,Passport,2019-09-18,2024-09-16,0.98,0.98,1,0,none,1825,86.6,[],trusted,No document anomalies detected
+DOC00241,PAN,2019-04-07,2026-04-05,0.88,0.89,1,0,none,2555,97.5,[],trusted,No document anomalies detected
+DOC00242,Passport,2024-03-20,2032-03-18,0.98,0.94,1,0,none,2920,94.6,[],trusted,No document anomalies detected
+DOC00243,Driving License,2017-03-12,2024-03-10,0.9,0.92,1,0,none,2555,99.9,[],trusted,No document anomalies detected
+DOC00244,Driving License,2017-03-01,2024-02-28,0.89,0.94,1,0,none,2555,99.2,[],trusted,No document anomalies detected
+DOC00245,Driving License,2015-05-05,2025-05-02,0.95,0.93,1,0,none,3650,93.8,[],trusted,No document anomalies detected
+DOC00246,Driving License,2015-06-16,2023-06-14,0.96,0.87,1,0,none,2920,96.9,[],trusted,No document anomalies detected
+DOC00247,Aadhaar,2024-01-04,2023-07-27,0.93,1.0,1,1,expiry_before_issue,-161,32.1,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00248,Aadhaar,2021-10-16,2028-10-14,0.87,0.92,1,0,none,2555,98.9,[],trusted,No document anomalies detected
+DOC00249,Passport,2021-12-02,2026-12-01,0.94,0.9,1,0,none,1825,94.2,[],trusted,No document anomalies detected
+DOC00250,Passport,2018-02-02,2025-01-31,0.99,0.92,1,0,none,2555,92.3,[],trusted,No document anomalies detected
+DOC00251,Voter ID,2024-01-13,2023-12-02,0.92,0.99,1,1,expiry_before_issue,-42,35.6,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00252,Aadhaar,2020-04-30,2030-04-28,0.85,0.98,1,0,none,3650,85.3,[],trusted,No document anomalies detected
+DOC00253,Driving License,2023-11-10,2030-11-08,0.87,0.91,1,0,none,2555,98.7,[],trusted,No document anomalies detected
+DOC00254,Driving License,2016-06-27,2024-06-25,0.92,0.92,1,0,none,2920,100.0,[],trusted,No document anomalies detected
+DOC00255,Passport,2024-03-24,2034-03-22,0.86,0.9,1,0,none,3650,90.1,[],trusted,No document anomalies detected
+DOC00256,Voter ID,2017-08-25,2024-08-23,0.9,0.99,1,0,none,2555,95.0,[],trusted,No document anomalies detected
+DOC00257,Driving License,2019-01-22,2028-01-20,0.98,0.94,1,0,none,3285,93.1,[],trusted,No document anomalies detected
+DOC00258,PAN,2019-05-24,2025-05-22,0.98,0.98,1,0,none,2190,90.2,[],trusted,No document anomalies detected
+DOC00259,Aadhaar,2022-04-14,2027-04-13,0.9,0.87,1,0,none,1825,94.2,[],trusted,No document anomalies detected
+DOC00260,Voter ID,2018-08-27,2024-08-25,0.93,0.9,1,0,none,2190,97.7,[],trusted,No document anomalies detected
+DOC00261,Aadhaar,2015-10-23,2022-10-21,0.85,1.0,1,0,none,2555,85.3,[],trusted,No document anomalies detected
+DOC00262,PAN,2016-01-30,2024-01-28,0.99,0.93,1,0,none,2920,91.3,[],trusted,No document anomalies detected
+DOC00263,Driving License,2016-12-10,2022-12-09,0.94,0.95,1,0,none,2190,98.0,[],trusted,No document anomalies detected
+DOC00264,Driving License,2021-12-15,2031-12-13,0.98,0.92,1,0,none,3650,90.6,[],trusted,No document anomalies detected
+DOC00265,Voter ID,2024-07-01,2034-06-29,0.93,0.88,1,0,none,3650,93.0,[],trusted,No document anomalies detected
+DOC00266,Passport,2018-04-18,2025-04-16,0.88,0.93,1,0,none,2555,98.9,[],trusted,No document anomalies detected
+DOC00267,Passport,2017-11-06,2027-11-04,0.88,0.85,1,0,none,3650,85.8,[],trusted,No document anomalies detected
+DOC00268,Driving License,2017-10-10,2023-10-09,0.9,0.96,1,0,none,2190,97.8,[],trusted,No document anomalies detected
+DOC00269,PAN,2018-02-26,2027-02-24,0.89,0.98,1,0,none,3285,95.1,[],trusted,No document anomalies detected
+DOC00270,Aadhaar,2019-06-11,2026-06-09,0.95,0.95,1,0,none,2555,97.5,[],trusted,No document anomalies detected
+DOC00271,Voter ID,2020-11-25,2026-11-24,0.97,0.86,1,0,none,2190,92.7,[],trusted,No document anomalies detected
+DOC00272,Aadhaar,2022-04-30,2030-04-28,0.88,0.99,1,0,none,2920,94.3,[],trusted,No document anomalies detected
+DOC00273,Aadhaar,2015-01-19,2023-01-17,0.98,0.86,1,0,none,2920,91.3,[],trusted,No document anomalies detected
+DOC00274,PAN,2024-06-04,2032-06-02,0.96,0.85,1,0,none,2920,90.2,[],trusted,No document anomalies detected
+DOC00275,Aadhaar,2024-10-31,2031-10-30,0.87,0.87,1,0,none,2555,95.2,[],trusted,No document anomalies detected
+DOC00276,Aadhaar,2017-02-15,2026-02-13,0.89,0.91,1,0,none,3285,98.3,[],trusted,No document anomalies detected
+DOC00277,Voter ID,2017-03-06,2022-03-05,0.98,0.92,1,0,none,1825,89.6,[],trusted,No document anomalies detected
+DOC00278,PAN,2020-01-14,2029-01-11,0.87,0.89,1,0,none,3285,96.1,[],trusted,No document anomalies detected
+DOC00279,Aadhaar,2016-03-09,2026-03-07,0.85,0.85,1,0,none,3650,79.4,[],trusted,No document anomalies detected
+DOC00280,Voter ID,2018-12-03,2024-12-01,0.91,0.93,1,0,none,2190,99.3,[],trusted,No document anomalies detected
+DOC00281,Passport,2016-08-02,2016-03-21,0.88,0.91,1,1,expiry_before_issue,-134,39.2,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00282,Aadhaar,2021-09-21,2031-09-19,0.86,0.95,1,0,none,3650,90.7,[],trusted,No document anomalies detected
+DOC00283,PAN,2024-02-20,2029-02-18,0.9,0.87,1,0,none,1825,94.2,[],trusted,No document anomalies detected
+DOC00284,Driving License,2022-08-10,2029-08-08,0.92,0.88,1,0,none,2555,97.1,[],trusted,No document anomalies detected
+DOC00285,Passport,2015-11-16,2021-11-14,0.89,0.87,1,0,none,2190,95.8,[],trusted,No document anomalies detected
+DOC00286,Driving License,2021-02-22,2026-02-21,0.96,0.89,0,1,invalid_number_format,1825,31.1,['Document number fails format/checksum validation'],high_risk,Document number fails format/checksum validation
+DOC00287,Driving License,2022-06-12,2031-06-10,0.98,0.91,1,0,none,3285,93.5,[],trusted,No document anomalies detected
+DOC00288,Voter ID,2016-01-09,2026-01-06,0.87,0.96,1,0,none,3650,91.3,[],trusted,No document anomalies detected
+DOC00289,Passport,2019-08-06,2026-08-04,0.95,0.98,1,0,none,2555,95.5,[],trusted,No document anomalies detected
+DOC00290,Driving License,2015-07-30,2022-07-28,0.87,0.97,1,0,none,2555,96.7,[],trusted,No document anomalies detected
+DOC00291,Passport,2019-08-24,2027-08-22,0.97,0.9,1,0,none,2920,97.2,[],trusted,No document anomalies detected
+DOC00292,Passport,2022-03-24,2030-03-22,0.36,0.94,1,1,face_mismatch,2920,38.0,['Face match score is low (0.36)'],high_risk,Face match score is low (0.36)
+DOC00293,PAN,2015-01-25,2023-01-23,0.88,0.98,1,0,none,2920,95.7,[],trusted,No document anomalies detected
+DOC00294,Driving License,2016-04-10,2021-04-09,0.95,0.98,1,0,none,1825,90.9,[],trusted,No document anomalies detected
+DOC00295,Passport,2020-03-02,2026-03-01,0.91,0.93,1,0,none,2190,99.3,[],trusted,No document anomalies detected
+DOC00296,Aadhaar,2021-03-09,2027-03-08,0.88,0.9,1,0,none,2190,97.0,[],trusted,No document anomalies detected
+DOC00297,Driving License,2015-12-31,2024-12-28,0.95,0.99,1,0,none,3285,92.9,[],trusted,No document anomalies detected
+DOC00298,Passport,2023-04-08,2032-04-05,0.87,0.86,1,0,none,3285,93.5,[],trusted,No document anomalies detected
+DOC00299,Passport,2018-03-06,2024-03-04,0.86,0.92,1,0,none,2190,95.7,[],trusted,No document anomalies detected
+DOC00300,Aadhaar,2016-03-21,2024-03-19,0.96,0.88,1,0,none,2920,97.2,[],trusted,No document anomalies detected
+DOC00301,PAN,2018-05-20,2024-05-18,0.92,0.93,1,0,none,2190,99.1,[],trusted,No document anomalies detected
+DOC00302,Aadhaar,2020-05-31,2027-05-30,0.97,0.87,1,0,none,2555,95.6,[],trusted,No document anomalies detected
+DOC00303,Driving License,2015-12-20,2025-12-17,0.21,0.93,1,1,face_mismatch,3650,32.4,['Face match score is low (0.21)'],high_risk,Face match score is low (0.21)
+DOC00304,PAN,2021-12-18,2029-12-16,0.9,0.89,1,0,none,2920,98.7,[],trusted,No document anomalies detected
+DOC00305,PAN,2024-04-19,2032-04-17,0.96,0.95,1,0,none,2920,97.8,[],trusted,No document anomalies detected
+DOC00306,PAN,2015-06-20,2023-06-18,0.86,0.93,1,0,none,2920,96.2,[],trusted,No document anomalies detected
+DOC00307,PAN,2019-04-21,2026-04-19,0.96,0.99,1,0,none,2555,93.0,[],trusted,No document anomalies detected
+DOC00308,PAN,2023-02-17,2029-02-15,0.85,0.97,1,0,none,2190,91.1,[],trusted,No document anomalies detected
+DOC00309,Voter ID,2024-06-12,2023-06-07,0.86,0.95,1,1,expiry_before_issue,-371,33.1,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00310,Aadhaar,2019-05-16,2028-05-13,0.93,0.99,1,0,none,3285,94.3,[],trusted,No document anomalies detected
+DOC00311,Passport,2022-04-12,2030-04-10,0.94,0.86,1,0,none,2920,95.7,[],trusted,No document anomalies detected
+DOC00312,PAN,2019-10-10,2027-10-08,0.94,0.89,1,0,none,2920,98.6,[],trusted,No document anomalies detected
+DOC00313,Driving License,2020-08-24,2028-08-22,0.97,0.85,1,0,none,2920,89.6,[],trusted,No document anomalies detected
+DOC00314,Aadhaar,2021-12-09,2029-12-07,0.9,0.95,1,0,none,2920,98.9,[],trusted,No document anomalies detected
+DOC00315,Driving License,2023-07-25,2032-07-22,0.87,0.95,1,0,none,3285,96.2,[],trusted,No document anomalies detected
+DOC00316,Driving License,2024-05-19,2030-05-18,0.95,0.96,1,0,none,2190,95.8,[],trusted,No document anomalies detected
+DOC00317,Driving License,2016-03-14,2021-03-13,0.97,0.91,1,0,none,1825,92.0,[],trusted,No document anomalies detected
+DOC00318,Driving License,2019-02-05,2024-02-04,0.87,0.89,1,0,none,1825,93.4,[],trusted,No document anomalies detected
+DOC00319,Voter ID,2020-09-20,2030-09-18,0.9,0.86,1,0,none,3650,91.3,[],trusted,No document anomalies detected
+DOC00320,PAN,2015-12-03,2025-11-30,0.95,0.22,1,1,font_inconsistency,3650,30.0,['Document font/formatting inconsistency detected (score 0.22)'],high_risk,Document font/formatting inconsistency detected (score 0.22)
+DOC00321,Aadhaar,2023-06-08,2032-06-05,0.86,0.99,1,0,none,3285,91.1,[],trusted,No document anomalies detected
+DOC00322,PAN,2015-04-16,2020-04-14,0.96,0.89,1,0,none,1825,92.5,[],trusted,No document anomalies detected
+DOC00323,Aadhaar,2017-03-04,2023-03-03,0.9,0.97,1,0,none,2190,96.9,[],trusted,No document anomalies detected
+DOC00324,Driving License,2018-03-25,2024-03-23,0.94,0.89,1,0,none,2190,97.2,[],trusted,No document anomalies detected
+DOC00325,PAN,2015-09-26,2022-09-24,0.91,0.98,1,0,none,2555,97.0,[],trusted,No document anomalies detected
+DOC00326,Passport,2016-10-12,2023-10-11,0.85,1.0,1,0,none,2555,85.3,[],trusted,No document anomalies detected
+DOC00327,Passport,2024-02-23,2032-02-21,0.93,0.88,1,0,none,2920,98.0,[],trusted,No document anomalies detected
+DOC00328,Voter ID,2020-05-20,2026-05-19,0.96,0.86,1,0,none,2190,93.2,[],trusted,No document anomalies detected
+DOC00329,Voter ID,2020-09-03,2026-09-02,0.91,0.94,1,0,none,2190,99.1,[],trusted,No document anomalies detected
+DOC00330,Aadhaar,2017-03-25,2023-03-24,0.88,0.98,1,0,none,2190,95.2,[],trusted,No document anomalies detected
+DOC00331,Passport,2022-08-15,2029-08-13,0.95,0.87,1,0,none,2555,96.6,[],trusted,No document anomalies detected
+DOC00332,PAN,2023-11-19,2030-11-17,0.87,0.86,1,0,none,2555,93.3,[],trusted,No document anomalies detected
+DOC00333,Voter ID,2015-07-18,2025-07-15,0.93,0.88,1,0,none,3650,93.0,[],trusted,No document anomalies detected
+DOC00334,Driving License,2021-03-24,2030-03-22,0.93,0.97,1,0,none,3285,96.5,[],trusted,No document anomalies detected
+DOC00335,Aadhaar,2017-10-29,2026-10-27,0.97,0.87,1,0,none,3285,94.3,[],trusted,No document anomalies detected
+DOC00336,Driving License,2023-04-11,2030-04-09,0.9,0.91,1,0,none,2555,99.6,[],trusted,No document anomalies detected
+DOC00337,Passport,2021-06-22,2027-06-21,0.9,0.91,1,0,none,2190,98.9,[],trusted,No document anomalies detected
+DOC00338,Aadhaar,2019-12-17,2025-12-15,0.91,0.96,1,0,none,2190,98.2,[],trusted,No document anomalies detected
+DOC00339,Aadhaar,2018-04-28,2027-04-26,0.89,0.9,1,0,none,3285,97.8,[],trusted,No document anomalies detected
+DOC00340,Voter ID,2022-06-11,2029-06-09,0.9,0.87,1,0,none,2555,96.9,[],trusted,No document anomalies detected
+DOC00341,Aadhaar,2017-06-26,2023-06-25,0.94,0.91,1,0,none,2190,98.3,[],trusted,No document anomalies detected
+DOC00342,Driving License,2019-09-07,2028-09-04,0.98,0.97,1,0,none,3285,91.4,[],trusted,No document anomalies detected
+DOC00343,Aadhaar,2016-06-24,2024-06-22,0.88,0.89,1,0,none,2920,98.0,[],trusted,No document anomalies detected
+DOC00344,Aadhaar,2015-04-02,2020-03-31,0.96,0.93,1,0,none,1825,93.2,[],trusted,No document anomalies detected
+DOC00345,Passport,2018-05-29,2017-08-05,0.85,0.94,1,1,expiry_before_issue,-297,33.3,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00346,PAN,2019-08-20,2028-08-17,0.91,0.97,1,0,none,3285,96.5,[],trusted,No document anomalies detected
+DOC00347,PAN,2017-04-16,2024-04-14,0.95,0.99,1,0,none,2555,93.4,[],trusted,No document anomalies detected
+DOC00348,Driving License,2016-10-11,2022-10-10,0.95,0.99,1,0,none,2190,91.3,[],trusted,No document anomalies detected
+DOC00349,PAN,2022-12-07,2030-12-05,0.3,0.9,1,1,face_mismatch,2920,34.7,['Face match score is low (0.3)'],high_risk,Face match score is low (0.3)
+DOC00350,PAN,2024-10-08,2034-10-06,0.86,0.98,1,0,none,3650,88.0,[],trusted,No document anomalies detected
+DOC00351,Driving License,2024-02-07,2031-02-05,0.87,0.93,1,0,none,2555,98.5,[],trusted,No document anomalies detected
+DOC00352,Aadhaar,2022-03-26,2031-03-24,0.92,0.97,1,0,none,3285,96.5,[],trusted,No document anomalies detected
+DOC00353,Voter ID,2022-03-29,2031-03-27,0.9,0.87,1,0,none,3285,96.5,[],trusted,No document anomalies detected
+DOC00354,Voter ID,2023-03-24,2031-03-22,0.9,0.86,1,0,none,2920,95.9,[],trusted,No document anomalies detected
+DOC00355,Aadhaar,2015-06-30,2020-06-28,0.89,0.94,1,0,none,1825,95.5,[],trusted,No document anomalies detected
+DOC00356,Driving License,2017-01-30,2023-01-29,0.86,1.0,1,0,none,2190,86.5,[],trusted,No document anomalies detected
+DOC00357,Aadhaar,2015-02-20,2024-02-18,0.93,0.9,1,0,none,3285,97.8,[],trusted,No document anomalies detected
+DOC00358,PAN,2016-08-05,2024-08-03,0.97,0.87,1,0,none,2920,96.1,[],trusted,No document anomalies detected
+DOC00359,Voter ID,2022-03-17,2031-03-15,0.9,0.99,1,0,none,3285,94.2,[],trusted,No document anomalies detected
+DOC00360,Driving License,2024-02-14,2033-02-11,0.88,0.96,1,0,none,3285,96.4,[],trusted,No document anomalies detected
+DOC00361,Passport,2015-09-19,2022-09-17,0.86,0.93,1,0,none,2555,96.9,[],trusted,No document anomalies detected
+DOC00362,Driving License,2023-01-09,2032-01-07,0.94,0.88,1,0,none,3285,96.3,[],trusted,No document anomalies detected
+DOC00363,Driving License,2023-05-11,2028-05-09,0.9,0.93,0,1,invalid_number_format,1825,31.7,['Document number fails format/checksum validation'],high_risk,Document number fails format/checksum validation
+DOC00364,Driving License,2016-12-19,2022-12-18,0.93,0.87,1,0,none,2190,95.7,[],trusted,No document anomalies detected
+DOC00365,Passport,2017-08-09,2027-08-07,0.91,1.0,1,0,none,3650,86.0,[],trusted,No document anomalies detected
+DOC00366,Passport,2024-12-29,2034-12-27,0.9,0.44,1,1,font_inconsistency,3650,40.0,['Document font/formatting inconsistency detected (score 0.44)'],review,Document font/formatting inconsistency detected (score 0.44)
+DOC00367,Voter ID,2022-08-14,2032-08-11,0.88,0.92,0,1,invalid_number_format,3650,29.7,['Document number fails format/checksum validation'],high_risk,Document number fails format/checksum validation
+DOC00368,Voter ID,2017-12-22,2024-12-20,0.92,0.94,1,0,none,2555,99.4,[],trusted,No document anomalies detected
+DOC00369,PAN,2015-12-16,2024-12-13,0.95,0.97,1,0,none,3285,95.3,[],trusted,No document anomalies detected
+DOC00370,Passport,2017-08-25,2023-08-24,0.45,0.97,1,1,face_mismatch,2190,38.9,['Face match score is low (0.45)'],high_risk,Face match score is low (0.45)
+DOC00371,Passport,2017-02-25,2025-02-23,0.97,0.9,1,0,none,2920,97.2,[],trusted,No document anomalies detected
+DOC00372,PAN,2019-04-04,2029-04-01,0.97,0.93,1,0,none,3650,92.2,[],trusted,No document anomalies detected
+DOC00373,Voter ID,2020-04-07,2028-04-05,0.89,0.88,1,0,none,2920,97.6,[],trusted,No document anomalies detected
+DOC00374,Aadhaar,2024-08-13,2029-08-12,0.96,0.95,1,0,none,1825,92.8,[],trusted,No document anomalies detected
+DOC00375,PAN,2021-05-25,2028-05-23,0.86,0.94,1,0,none,2555,96.8,[],trusted,No document anomalies detected
+DOC00376,Driving License,2021-12-25,2030-12-23,0.86,0.91,1,0,none,3285,94.9,[],trusted,No document anomalies detected
+DOC00377,PAN,2016-08-15,2021-08-14,0.93,0.95,1,0,none,1825,95.0,[],trusted,No document anomalies detected
+DOC00378,Aadhaar,2021-12-22,2028-12-20,0.26,0.86,1,1,face_mismatch,2555,31.0,['Face match score is low (0.26)'],high_risk,Face match score is low (0.26)
+DOC00379,Aadhaar,2015-05-07,2020-05-05,0.93,0.97,1,0,none,1825,93.6,[],trusted,No document anomalies detected
+DOC00380,Aadhaar,2022-10-25,2027-10-24,0.96,0.9,1,0,none,1825,92.9,[],trusted,No document anomalies detected
+DOC00381,Aadhaar,2024-08-09,2033-08-07,0.93,0.96,1,0,none,3285,97.2,[],trusted,No document anomalies detected
+DOC00382,PAN,2024-03-02,2033-02-28,0.97,0.92,1,0,none,3285,96.2,[],trusted,No document anomalies detected
+DOC00383,Aadhaar,2024-11-12,2034-11-10,0.97,0.9,1,0,none,3650,91.7,[],trusted,No document anomalies detected
+DOC00384,Aadhaar,2017-10-06,2023-10-05,0.88,0.89,1,0,none,2190,96.7,[],trusted,No document anomalies detected
+DOC00385,Aadhaar,2015-05-22,2025-05-19,0.95,0.98,1,0,none,3650,90.6,[],trusted,No document anomalies detected
+DOC00386,Passport,2020-05-08,2025-05-07,0.92,0.95,1,0,none,1825,95.8,[],trusted,No document anomalies detected
+DOC00387,PAN,2018-04-21,2025-04-19,0.87,0.93,1,0,none,2555,98.5,[],trusted,No document anomalies detected
+DOC00388,Passport,2015-03-27,2022-03-25,0.91,0.91,1,0,none,2555,99.8,[],trusted,No document anomalies detected
+DOC00389,Passport,2015-07-18,2025-07-15,0.88,0.94,1,0,none,3650,94.4,[],trusted,No document anomalies detected
+DOC00390,Passport,2023-08-17,2032-08-14,0.94,0.95,1,0,none,3285,97.5,[],trusted,No document anomalies detected
+DOC00391,Passport,2021-12-07,2031-12-05,0.95,0.92,1,0,none,3650,94.5,[],trusted,No document anomalies detected
+DOC00392,Driving License,2015-05-08,2024-05-05,0.97,0.94,0,1,invalid_number_format,3285,31.3,['Document number fails format/checksum validation'],high_risk,Document number fails format/checksum validation
+DOC00393,Passport,2020-04-04,2030-04-02,0.97,0.91,1,0,none,3650,92.0,[],trusted,No document anomalies detected
+DOC00394,Voter ID,2017-06-06,2016-07-17,0.95,0.88,1,1,expiry_before_issue,-324,33.7,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00395,PAN,2019-11-22,2024-11-20,0.86,0.99,1,0,none,1825,87.7,[],trusted,No document anomalies detected
+DOC00396,Passport,2023-07-19,2028-07-17,0.9,0.86,1,0,none,1825,91.9,[],trusted,No document anomalies detected
+DOC00397,Driving License,2016-01-27,2026-01-24,0.94,0.99,0,1,invalid_number_format,3650,28.4,['Document number fails format/checksum validation'],high_risk,Document number fails format/checksum validation
+DOC00398,PAN,2020-07-18,2029-07-16,0.96,1.0,1,0,none,3285,87.6,[],trusted,No document anomalies detected
+DOC00399,Voter ID,2017-12-03,2026-12-01,0.98,0.92,1,0,none,3285,94.0,[],trusted,No document anomalies detected
+DOC00400,Passport,2024-02-22,2030-02-20,0.88,0.86,1,0,none,2190,93.5,[],trusted,No document anomalies detected
+DOC00401,PAN,2020-08-03,2026-08-02,0.89,0.94,1,0,none,2190,98.6,[],trusted,No document anomalies detected
+DOC00402,Aadhaar,2020-07-01,2030-06-29,0.98,0.85,1,0,none,3650,82.4,[],trusted,No document anomalies detected
+DOC00403,Aadhaar,2022-01-16,2029-01-14,0.96,0.96,1,0,none,2555,96.3,[],trusted,No document anomalies detected
+DOC00404,Driving License,2019-06-05,2029-06-02,0.95,0.87,1,0,none,3650,91.2,[],trusted,No document anomalies detected
+DOC00405,Aadhaar,2019-03-04,2025-03-02,0.86,0.96,1,0,none,2190,94.7,[],trusted,No document anomalies detected
+DOC00406,Driving License,2021-02-10,2030-02-08,0.94,0.91,1,0,none,3285,97.9,[],trusted,No document anomalies detected
+DOC00407,PAN,2020-03-02,2026-03-01,0.9,0.85,1,0,none,2190,89.0,[],trusted,No document anomalies detected
+DOC00408,Voter ID,2022-04-01,2027-03-31,0.99,0.98,1,0,none,1825,82.9,[],trusted,No document anomalies detected
+DOC00409,Passport,2020-11-07,2026-11-06,0.99,0.97,1,0,none,2190,87.3,[],trusted,No document anomalies detected
+DOC00410,Driving License,2022-06-04,2031-06-02,0.91,0.98,1,0,none,3285,95.4,[],trusted,No document anomalies detected
+DOC00411,PAN,2020-03-12,2028-03-10,0.88,0.95,1,0,none,2920,98.4,[],trusted,No document anomalies detected
+DOC00412,Passport,2021-06-30,2027-06-29,0.88,0.91,1,0,none,2190,98.2,[],trusted,No document anomalies detected
+DOC00413,Driving License,2022-03-17,2032-03-14,0.97,0.91,1,0,none,3650,92.0,[],trusted,No document anomalies detected
+DOC00414,PAN,2017-12-31,2024-12-29,0.98,0.94,1,0,none,2555,94.5,[],trusted,No document anomalies detected
+DOC00415,Voter ID,2016-09-25,2026-09-23,0.89,0.89,1,0,none,3650,93.2,[],trusted,No document anomalies detected
+DOC00416,PAN,2023-02-10,2030-02-08,0.85,0.94,1,0,none,2555,94.0,[],trusted,No document anomalies detected
+DOC00417,Passport,2016-10-21,2022-10-20,0.97,0.88,1,0,none,2190,94.6,[],trusted,No document anomalies detected
+DOC00418,PAN,2017-11-25,2027-11-23,0.92,1.0,1,0,none,3650,85.7,[],trusted,No document anomalies detected
+DOC00419,PAN,2022-05-18,2027-05-17,0.91,0.99,1,0,none,1825,91.6,[],trusted,No document anomalies detected
+DOC00420,PAN,2016-08-30,2023-08-29,0.97,0.92,1,0,none,2555,97.6,[],trusted,No document anomalies detected
+DOC00421,Driving License,2018-01-26,2024-01-25,0.94,0.86,1,0,none,2190,94.2,[],trusted,No document anomalies detected
+DOC00422,Aadhaar,2018-02-24,2024-02-23,0.92,0.96,1,0,none,2190,98.1,[],trusted,No document anomalies detected
+DOC00423,Driving License,2015-05-19,2020-05-17,0.88,0.86,1,0,none,1825,90.3,[],trusted,No document anomalies detected
+DOC00424,Driving License,2022-10-11,2028-10-09,0.85,0.87,1,0,none,2190,89.0,[],trusted,No document anomalies detected
+DOC00425,Passport,2020-03-12,2025-03-11,0.88,0.97,1,0,none,1825,93.7,[],trusted,No document anomalies detected
+DOC00426,Voter ID,2023-04-12,2031-04-10,0.91,0.93,1,0,none,2920,99.3,[],trusted,No document anomalies detected
+DOC00427,PAN,2024-07-25,2034-07-23,0.89,0.89,0,1,invalid_number_format,3650,28.8,['Document number fails format/checksum validation'],high_risk,Document number fails format/checksum validation
+DOC00428,Driving License,2024-06-27,2030-06-26,0.93,0.96,1,0,none,2190,97.6,[],trusted,No document anomalies detected
+DOC00429,Voter ID,2024-07-23,2030-07-22,0.88,0.92,1,0,none,2190,98.3,[],trusted,No document anomalies detected
+DOC00430,Aadhaar,2020-02-03,2028-02-01,0.94,0.99,1,0,none,2920,93.8,[],trusted,No document anomalies detected
+DOC00431,Aadhaar,2019-09-15,2025-09-13,0.89,0.91,1,0,none,2190,98.7,[],trusted,No document anomalies detected
+DOC00432,PAN,2017-10-21,2025-10-19,0.93,0.87,1,0,none,2920,97.5,[],trusted,No document anomalies detected
+DOC00433,Aadhaar,2021-12-20,2029-12-18,0.94,1.0,1,0,none,2920,89.5,[],trusted,No document anomalies detected
+DOC00434,PAN,2022-05-04,2029-05-02,0.89,0.92,1,0,none,2555,99.9,[],trusted,No document anomalies detected
+DOC00435,Driving License,2024-04-30,2032-04-28,0.87,0.93,1,0,none,2920,97.9,[],trusted,No document anomalies detected
+DOC00436,Aadhaar,2015-06-06,2022-06-04,0.99,0.93,1,0,none,2555,91.7,[],trusted,No document anomalies detected
+DOC00437,PAN,2023-01-12,2029-01-10,0.88,0.9,1,0,none,2190,97.0,[],trusted,No document anomalies detected
+DOC00438,Aadhaar,2024-07-01,2033-06-29,0.94,0.98,1,0,none,3285,95.0,[],trusted,No document anomalies detected
+DOC00439,PAN,2023-01-17,2031-01-15,0.91,0.92,1,0,none,2920,100.0,[],trusted,No document anomalies detected
+DOC00440,Passport,2020-11-06,2027-11-05,0.96,0.87,1,0,none,2555,96.3,[],trusted,No document anomalies detected
+DOC00441,Driving License,2017-05-10,2027-05-08,0.98,0.92,1,0,none,3650,90.6,[],trusted,No document anomalies detected
+DOC00442,Voter ID,2023-07-22,2028-07-20,0.9,0.97,1,0,none,1825,94.0,[],trusted,No document anomalies detected
+DOC00443,Voter ID,2018-12-27,2028-12-24,0.89,0.87,1,0,none,3650,91.5,[],trusted,No document anomalies detected
+DOC00444,Passport,2019-04-14,2024-04-12,0.89,0.95,0,1,invalid_number_format,1825,32.3,['Document number fails format/checksum validation'],high_risk,Document number fails format/checksum validation
+DOC00445,Driving License,2019-09-19,2028-09-16,0.86,0.34,1,1,font_inconsistency,3285,37.1,['Document font/formatting inconsistency detected (score 0.34)'],high_risk,Document font/formatting inconsistency detected (score 0.34)
+DOC00446,PAN,2018-05-28,2028-05-25,0.88,0.93,1,0,none,3650,94.7,[],trusted,No document anomalies detected
+DOC00447,Voter ID,2017-06-15,2025-06-13,0.87,0.97,1,0,none,2920,96.1,[],trusted,No document anomalies detected
+DOC00448,PAN,2016-06-13,2021-06-12,0.98,0.9,1,0,none,1825,89.2,[],trusted,No document anomalies detected
+DOC00449,PAN,2020-04-05,2030-04-03,0.9,0.94,1,0,none,3650,94.5,[],trusted,No document anomalies detected
+DOC00450,PAN,2024-02-19,2030-02-17,0.95,0.86,1,0,none,2190,93.8,[],trusted,No document anomalies detected
+DOC00451,Driving License,2020-04-01,2027-03-31,0.94,0.97,1,0,none,2555,97.1,[],trusted,No document anomalies detected
+DOC00452,PAN,2023-09-30,2031-09-28,0.96,0.92,1,0,none,2920,98.8,[],trusted,No document anomalies detected
+DOC00453,PAN,2017-12-31,2027-12-29,0.97,0.93,1,0,none,3650,92.2,[],trusted,No document anomalies detected
+DOC00454,Passport,2019-10-12,2029-10-09,0.88,0.89,1,0,none,3650,93.0,[],trusted,No document anomalies detected
+DOC00455,Aadhaar,2024-01-13,2034-01-10,0.93,0.93,1,0,none,3650,94.7,[],trusted,No document anomalies detected
+DOC00456,Passport,2017-09-30,2027-09-28,0.96,0.96,1,0,none,3650,91.7,[],trusted,No document anomalies detected
+DOC00457,Driving License,2020-06-09,2028-06-07,0.88,0.91,1,0,none,2920,99.3,[],trusted,No document anomalies detected
+DOC00458,Aadhaar,2022-05-24,2029-05-22,0.96,0.92,1,0,none,2555,98.5,[],trusted,No document anomalies detected
+DOC00459,Passport,2024-07-31,2032-07-29,0.88,0.99,1,0,none,2920,94.3,[],trusted,No document anomalies detected
+DOC00460,Voter ID,2018-08-22,2027-08-20,0.36,0.9,1,1,face_mismatch,3285,36.5,['Face match score is low (0.36)'],high_risk,Face match score is low (0.36)
+DOC00461,Voter ID,2015-03-03,2025-02-28,0.92,0.9,1,0,none,3650,93.6,[],trusted,No document anomalies detected
+DOC00462,Aadhaar,2022-05-10,2029-05-08,0.89,0.4,1,1,font_inconsistency,2555,39.8,['Document font/formatting inconsistency detected (score 0.4)'],high_risk,Document font/formatting inconsistency detected (score 0.4)
+DOC00463,Voter ID,2016-08-07,2022-08-06,0.96,0.91,1,0,none,2190,96.8,[],trusted,No document anomalies detected
+DOC00464,Driving License,2018-11-20,2024-11-18,0.87,0.92,1,0,none,2190,97.6,[],trusted,No document anomalies detected
+DOC00465,Driving License,2023-11-17,2032-11-14,0.91,0.92,1,0,none,3285,99.0,[],trusted,No document anomalies detected
+DOC00466,Voter ID,2023-10-06,2028-10-04,0.88,0.97,1,0,none,1825,93.7,[],trusted,No document anomalies detected
+DOC00467,Voter ID,2023-11-02,2033-10-30,0.88,0.86,1,0,none,3650,90.5,[],trusted,No document anomalies detected
+DOC00468,PAN,2020-07-18,2030-07-16,0.95,0.96,1,0,none,3650,92.3,[],trusted,No document anomalies detected
+DOC00469,Aadhaar,2023-04-27,2031-04-25,0.88,0.88,1,0,none,2920,97.1,[],trusted,No document anomalies detected
+DOC00470,Aadhaar,2021-03-23,2026-03-22,0.93,0.99,1,0,none,1825,90.3,[],trusted,No document anomalies detected
+DOC00471,PAN,2024-04-10,2030-04-09,0.89,0.93,1,0,none,2190,98.8,[],trusted,No document anomalies detected
+DOC00472,Voter ID,2015-08-28,2023-08-26,0.89,0.96,1,0,none,2920,97.7,[],trusted,No document anomalies detected
+DOC00473,PAN,2022-11-08,2030-11-06,0.92,0.91,1,0,none,2920,99.6,[],trusted,No document anomalies detected
+DOC00474,PAN,2021-01-18,2030-01-16,0.94,0.93,1,0,none,3285,98.1,[],trusted,No document anomalies detected
+DOC00475,Aadhaar,2016-10-18,2023-10-17,0.88,0.91,1,0,none,2555,99.0,[],trusted,No document anomalies detected
+DOC00476,Voter ID,2020-07-31,2030-07-29,0.98,0.97,1,0,none,3650,87.5,[],trusted,No document anomalies detected
+DOC00477,Driving License,2019-03-16,2027-03-14,0.92,0.95,1,0,none,2920,99.3,[],trusted,No document anomalies detected
+DOC00478,Aadhaar,2017-01-09,2027-01-07,0.87,0.91,1,0,none,3650,92.7,[],trusted,No document anomalies detected
+DOC00479,Aadhaar,2015-03-26,2024-03-23,0.98,0.88,1,0,none,3285,92.3,[],trusted,No document anomalies detected
+DOC00480,Passport,2024-01-26,2023-04-10,0.99,0.98,1,1,expiry_before_issue,-291,30.1,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00481,PAN,2015-05-19,2021-05-17,0.95,0.91,1,0,none,2190,97.6,[],trusted,No document anomalies detected
+DOC00482,PAN,2018-10-18,2023-10-17,0.86,0.89,1,0,none,1825,91.7,[],trusted,No document anomalies detected
+DOC00483,Passport,2018-10-30,2026-10-28,0.95,0.91,1,0,none,2920,98.9,[],trusted,No document anomalies detected
+DOC00484,Voter ID,2023-08-23,2029-08-21,0.96,0.88,1,0,none,2190,95.3,[],trusted,No document anomalies detected
+DOC00485,Passport,2019-09-27,2026-09-25,0.97,0.98,1,0,none,2555,94.1,[],trusted,No document anomalies detected
+DOC00486,Passport,2018-04-14,2025-04-12,0.95,0.88,1,0,none,2555,96.6,[],trusted,No document anomalies detected
+DOC00487,Driving License,2018-09-28,2027-09-26,0.88,0.86,1,0,none,3285,94.6,[],trusted,No document anomalies detected
+DOC00488,Voter ID,2018-11-13,2024-11-11,0.86,0.96,1,0,none,2190,94.7,[],trusted,No document anomalies detected
+DOC00489,Aadhaar,2018-09-17,2024-09-15,0.92,0.96,1,0,none,2190,98.1,[],trusted,No document anomalies detected
+DOC00490,Passport,2016-06-06,2025-06-04,0.89,0.9,1,0,none,3285,97.8,[],trusted,No document anomalies detected
+DOC00491,Aadhaar,2023-10-18,2028-10-16,0.98,1.0,1,0,none,1825,79.8,[],trusted,No document anomalies detected
+DOC00492,Voter ID,2024-12-06,2032-12-04,0.86,0.97,1,0,none,2920,94.6,[],trusted,No document anomalies detected
+DOC00493,Aadhaar,2019-06-21,2026-06-19,0.93,0.85,1,0,none,2555,90.5,[],trusted,No document anomalies detected
+DOC00494,Aadhaar,2017-02-16,2025-02-14,0.94,0.89,1,0,none,2920,98.6,[],trusted,No document anomalies detected
+DOC00495,Aadhaar,2023-11-06,2032-11-03,0.9,1.0,1,0,none,3285,89.9,[],trusted,No document anomalies detected
+DOC00496,Voter ID,2019-03-21,2028-03-18,0.95,0.86,1,0,none,3285,94.2,[],trusted,No document anomalies detected
+DOC00497,Voter ID,2024-10-29,2034-10-27,0.95,0.85,1,0,none,3650,86.5,[],trusted,No document anomalies detected
+DOC00498,Aadhaar,2022-06-25,2032-06-22,0.97,0.94,1,0,none,3650,91.9,[],trusted,No document anomalies detected
+DOC00499,PAN,2016-02-20,2026-02-17,0.94,0.85,1,0,none,3650,87.1,[],trusted,No document anomalies detected
+DOC00500,Aadhaar,2019-09-23,2024-09-21,0.86,0.93,1,0,none,1825,92.9,[],trusted,No document anomalies detected
+DOC00501,Aadhaar,2019-02-19,2025-02-17,0.9,0.97,1,0,none,2190,96.9,[],trusted,No document anomalies detected
+DOC00502,Voter ID,2022-12-18,2029-12-16,0.89,0.91,1,0,none,2555,99.6,[],trusted,No document anomalies detected
+DOC00503,PAN,2019-09-24,2024-09-22,0.87,0.93,1,0,none,1825,94.3,[],trusted,No document anomalies detected
+DOC00504,Driving License,2021-05-08,2031-05-06,0.98,0.89,1,0,none,3650,89.0,[],trusted,No document anomalies detected
+DOC00505,Aadhaar,2020-07-31,2029-07-29,0.96,0.87,1,0,none,3285,95.2,[],trusted,No document anomalies detected
+DOC00506,Aadhaar,2023-09-05,2031-09-03,0.97,0.93,1,0,none,2920,97.5,[],trusted,No document anomalies detected
+DOC00507,Driving License,2020-01-03,2025-01-01,0.87,0.97,1,0,none,1825,93.1,[],trusted,No document anomalies detected
+DOC00508,Driving License,2021-08-29,2029-08-27,0.51,0.87,1,1,face_mismatch,2920,43.6,['Face match score is low (0.51)'],review,Face match score is low (0.51)
+DOC00509,Voter ID,2016-02-22,2021-02-20,0.87,0.89,1,0,none,1825,93.4,[],trusted,No document anomalies detected
+DOC00510,PAN,2016-09-13,2026-09-11,0.92,0.99,1,0,none,3650,89.4,[],trusted,No document anomalies detected
+DOC00511,Aadhaar,2015-02-08,2014-11-25,0.97,0.9,1,1,expiry_before_issue,-75,36.8,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00512,Aadhaar,2016-06-12,2024-06-10,0.86,0.94,1,0,none,2920,96.5,[],trusted,No document anomalies detected
+DOC00513,Voter ID,2017-09-19,2027-09-17,0.93,0.89,0,1,invalid_number_format,3650,29.0,['Document number fails format/checksum validation'],high_risk,Document number fails format/checksum validation
+DOC00514,Aadhaar,2019-02-07,2029-02-04,0.93,1.0,1,0,none,3650,86.1,[],trusted,No document anomalies detected
+DOC00515,PAN,2023-03-08,2028-03-06,0.87,0.9,1,0,none,1825,93.6,[],trusted,No document anomalies detected
+DOC00516,Voter ID,2022-12-15,2030-12-13,0.97,0.87,1,0,none,2920,96.1,[],trusted,No document anomalies detected
+DOC00517,Passport,2015-08-04,2025-08-01,0.87,0.88,1,0,none,3650,90.8,[],trusted,No document anomalies detected
+DOC00518,Aadhaar,2015-03-02,2014-07-16,0.96,0.87,1,1,expiry_before_issue,-229,35.4,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00519,Voter ID,2016-11-10,2024-11-08,0.86,0.94,1,0,none,2920,96.5,[],trusted,No document anomalies detected
+DOC00520,Passport,2019-02-14,2028-02-12,0.96,0.96,1,0,none,3285,95.4,[],trusted,No document anomalies detected
+DOC00521,Driving License,2022-08-04,2028-08-02,0.91,0.99,1,0,none,2190,93.8,[],trusted,No document anomalies detected
+DOC00522,Aadhaar,2019-01-27,2029-01-24,0.87,0.92,1,0,none,3650,93.3,[],trusted,No document anomalies detected
+DOC00523,Driving License,2020-05-07,2028-05-05,0.9,0.93,1,0,none,2920,99.1,[],trusted,No document anomalies detected
+DOC00524,Driving License,2018-01-19,2027-01-17,0.88,0.87,1,0,none,3285,95.6,[],trusted,No document anomalies detected
+DOC00525,Passport,2015-09-06,2024-09-03,0.99,0.9,1,0,none,3285,89.4,[],trusted,No document anomalies detected
+DOC00526,Voter ID,2018-09-22,2027-09-20,0.92,0.99,1,0,none,3285,94.2,[],trusted,No document anomalies detected
+DOC00527,Aadhaar,2024-04-27,2030-04-26,0.89,0.9,1,0,none,2190,97.6,[],trusted,No document anomalies detected
+DOC00528,Passport,2021-07-22,2029-07-20,0.93,0.86,1,0,none,2920,96.1,[],trusted,No document anomalies detected
+DOC00529,PAN,2019-03-23,2027-03-21,0.85,0.94,1,0,none,2920,93.8,[],trusted,No document anomalies detected
+DOC00530,Voter ID,2023-08-26,2029-08-24,0.9,0.86,1,0,none,2190,94.7,[],trusted,No document anomalies detected
+DOC00531,Passport,2022-09-21,2027-09-20,0.89,0.95,1,0,none,1825,95.5,[],trusted,No document anomalies detected
+DOC00532,Passport,2019-09-27,2025-09-25,0.96,0.93,1,0,none,2190,96.5,[],trusted,No document anomalies detected
+DOC00533,Aadhaar,2018-03-27,2024-03-25,0.88,0.98,1,0,none,2190,95.2,[],trusted,No document anomalies detected
+DOC00534,Voter ID,2016-08-25,2023-08-24,0.88,0.96,1,0,none,2555,97.2,[],trusted,No document anomalies detected
+DOC00535,Voter ID,2022-09-05,2030-09-03,0.87,0.99,1,0,none,2920,93.3,[],trusted,No document anomalies detected
+DOC00536,Aadhaar,2021-01-20,2030-01-18,0.96,0.93,1,0,none,3285,96.8,[],trusted,No document anomalies detected
+DOC00537,Driving License,2017-03-31,2027-03-29,0.91,0.94,1,0,none,3650,95.0,[],trusted,No document anomalies detected
+DOC00538,PAN,2018-06-21,2027-06-19,0.94,0.93,1,0,none,3285,98.1,[],trusted,No document anomalies detected
+DOC00539,Driving License,2020-03-20,2027-03-19,0.44,0.86,1,1,face_mismatch,2555,38.3,['Face match score is low (0.44)'],high_risk,Face match score is low (0.44)
+DOC00540,Aadhaar,2023-11-17,2031-11-15,0.91,0.96,1,0,none,2920,98.2,[],trusted,No document anomalies detected
+DOC00541,Aadhaar,2021-01-05,2028-01-04,0.91,1.0,1,0,none,2555,91.4,[],trusted,No document anomalies detected
+DOC00542,PAN,2019-06-19,2028-06-16,0.92,0.9,1,0,none,3285,97.6,[],trusted,No document anomalies detected
+DOC00543,Passport,2024-12-04,2033-12-02,0.97,0.91,1,0,none,3285,95.7,[],trusted,No document anomalies detected
+DOC00544,Voter ID,2021-08-10,2027-08-09,0.93,0.95,1,0,none,2190,98.5,[],trusted,No document anomalies detected
+DOC00545,PAN,2016-01-13,2022-01-11,0.97,0.88,1,0,none,2190,94.6,[],trusted,No document anomalies detected
+DOC00546,Passport,2019-01-26,2028-01-24,0.97,0.94,1,0,none,3285,95.4,[],trusted,No document anomalies detected
+DOC00547,Driving License,2023-09-29,2032-09-26,0.9,0.9,1,0,none,3285,98.1,[],trusted,No document anomalies detected
+DOC00548,PAN,2015-07-02,2023-06-30,0.99,0.99,1,0,none,2920,84.9,[],trusted,No document anomalies detected
+DOC00549,Aadhaar,2019-03-03,2029-02-28,0.93,0.9,1,0,none,3650,94.0,[],trusted,No document anomalies detected
+DOC00550,Aadhaar,2016-10-01,2023-09-30,0.99,0.85,1,0,none,2555,83.0,[],trusted,No document anomalies detected
+DOC00551,Passport,2018-02-23,2027-02-21,0.86,0.92,1,0,none,3285,95.1,[],trusted,No document anomalies detected
+DOC00552,Aadhaar,2015-05-18,2021-05-16,0.93,0.85,1,0,none,2190,89.5,[],trusted,No document anomalies detected
+DOC00553,Voter ID,2020-06-14,2029-06-12,0.88,0.86,1,0,none,3285,94.6,[],trusted,No document anomalies detected
+DOC00554,Passport,2023-09-27,2030-09-25,0.88,0.88,1,0,none,2555,96.4,[],trusted,No document anomalies detected
+DOC00555,Driving License,2023-08-09,2032-08-06,0.87,0.87,1,0,none,3285,94.7,[],trusted,No document anomalies detected
+DOC00556,PAN,2017-11-06,2022-11-05,0.9,0.87,1,0,none,1825,94.2,[],trusted,No document anomalies detected
+DOC00557,PAN,2019-03-30,2024-03-28,0.96,0.91,1,0,none,1825,93.2,[],trusted,No document anomalies detected
+DOC00558,Aadhaar,2021-04-02,2031-03-31,0.87,0.4,1,1,font_inconsistency,3650,37.6,['Document font/formatting inconsistency detected (score 0.4)'],high_risk,Document font/formatting inconsistency detected (score 0.4)
+DOC00559,Aadhaar,2024-09-04,2033-09-02,0.96,0.9,1,0,none,3285,96.7,[],trusted,No document anomalies detected
+DOC00560,Aadhaar,2022-12-03,2027-12-02,0.85,0.95,1,0,none,1825,89.6,[],trusted,No document anomalies detected
+DOC00561,Voter ID,2017-08-13,2027-08-11,0.96,0.98,1,0,none,3650,90.1,[],trusted,No document anomalies detected
+DOC00562,Voter ID,2019-05-30,2025-05-28,0.95,0.94,1,0,none,2190,97.2,[],trusted,No document anomalies detected
+DOC00563,PAN,2019-02-28,2025-02-26,0.9,0.89,1,0,none,2190,97.7,[],trusted,No document anomalies detected
+DOC00564,PAN,2016-12-06,2021-12-05,0.86,0.97,1,0,none,1825,91.7,[],trusted,No document anomalies detected
+DOC00565,Passport,2015-08-31,2024-08-28,0.93,0.89,1,0,none,3285,97.6,[],trusted,No document anomalies detected
+DOC00566,Aadhaar,2017-11-22,2026-11-20,0.87,0.89,1,0,none,3285,96.1,[],trusted,No document anomalies detected
+DOC00567,Driving License,2015-08-17,2020-08-15,0.96,0.88,1,0,none,1825,92.1,[],trusted,No document anomalies detected
+DOC00568,Aadhaar,2017-03-25,2027-03-23,0.86,0.91,1,0,none,3650,90.9,[],trusted,No document anomalies detected
+DOC00569,Voter ID,2021-08-19,2029-08-17,0.9,0.95,1,0,none,2920,98.9,[],trusted,No document anomalies detected
+DOC00570,Aadhaar,2020-04-12,2027-04-11,0.93,0.92,1,0,none,2555,100.0,[],trusted,No document anomalies detected
+DOC00571,Driving License,2016-05-23,2023-05-22,0.99,0.98,1,0,none,2555,88.4,[],trusted,No document anomalies detected
+DOC00572,PAN,2019-12-13,2025-12-11,0.87,0.89,1,0,none,2190,95.9,[],trusted,No document anomalies detected
+DOC00573,Aadhaar,2020-03-31,2030-03-29,0.91,0.86,1,0,none,3650,91.7,[],trusted,No document anomalies detected
+DOC00574,Aadhaar,2016-10-04,2022-10-03,0.96,0.97,1,0,none,2190,94.4,[],trusted,No document anomalies detected
+DOC00575,Voter ID,2024-09-20,2031-09-19,0.89,0.99,1,0,none,2555,94.7,[],trusted,No document anomalies detected
+DOC00576,PAN,2023-09-23,2031-09-21,0.93,0.88,1,0,none,2920,98.0,[],trusted,No document anomalies detected
+DOC00577,Driving License,2024-06-11,2029-06-10,0.94,0.95,1,0,none,1825,94.9,[],trusted,No document anomalies detected
+DOC00578,Driving License,2018-10-23,2025-10-21,0.95,1.0,1,0,none,2555,89.3,[],trusted,No document anomalies detected
+DOC00579,Driving License,2016-04-18,2026-04-16,0.98,0.91,1,0,none,3650,89.8,[],trusted,No document anomalies detected
+DOC00580,Passport,2017-06-26,2027-06-24,0.91,0.85,1,0,none,3650,87.2,[],trusted,No document anomalies detected
+DOC00581,Driving License,2021-03-16,2029-03-14,0.35,0.88,1,1,face_mismatch,2920,35.7,['Face match score is low (0.35)'],high_risk,Face match score is low (0.35)
+DOC00582,Passport,2019-09-10,2027-09-08,0.87,0.97,1,0,none,2920,96.1,[],trusted,No document anomalies detected
+DOC00583,Aadhaar,2018-01-15,2027-01-13,0.85,0.87,1,0,none,3285,89.9,[],trusted,No document anomalies detected
+DOC00584,Passport,2024-01-07,2030-01-05,0.94,0.94,1,0,none,2190,98.1,[],trusted,No document anomalies detected
+DOC00585,Aadhaar,2018-07-26,2026-07-24,0.91,0.97,1,0,none,2920,97.2,[],trusted,No document anomalies detected
+DOC00586,Aadhaar,2016-09-20,2025-09-18,0.88,0.88,1,0,none,3285,96.1,[],trusted,No document anomalies detected
+DOC00587,PAN,2021-04-12,2028-04-10,0.92,0.87,0,1,invalid_number_format,2555,31.4,['Document number fails format/checksum validation'],high_risk,Document number fails format/checksum validation
+DOC00588,PAN,2019-02-01,2027-01-30,0.95,0.99,1,0,none,2920,92.9,[],trusted,No document anomalies detected
+DOC00589,PAN,2017-09-02,2022-09-01,0.96,0.98,1,0,none,1825,90.0,[],trusted,No document anomalies detected
+DOC00590,Driving License,2016-10-26,2021-10-25,0.86,0.91,1,0,none,1825,93.1,[],trusted,No document anomalies detected
+DOC00591,Passport,2016-08-14,2026-08-12,0.98,0.98,1,0,none,3650,86.2,[],trusted,No document anomalies detected
+DOC00592,Voter ID,2018-10-28,2026-10-26,0.41,0.95,1,1,face_mismatch,2920,41.0,['Face match score is low (0.41)'],review,Face match score is low (0.41)
+DOC00593,Voter ID,2018-03-19,2025-03-17,0.29,0.89,1,1,face_mismatch,2555,33.5,['Face match score is low (0.29)'],high_risk,Face match score is low (0.29)
+DOC00594,Driving License,2017-06-13,2024-06-11,0.86,0.99,1,0,none,2555,92.3,[],trusted,No document anomalies detected
+DOC00595,PAN,2024-06-16,2030-06-15,0.89,1.0,1,0,none,2190,89.8,[],trusted,No document anomalies detected
+DOC00596,PAN,2022-12-24,2028-12-22,0.85,0.97,1,0,none,2190,91.1,[],trusted,No document anomalies detected
+DOC00597,Aadhaar,2024-04-18,2029-04-17,0.92,0.86,1,0,none,1825,91.9,[],trusted,No document anomalies detected
+DOC00598,Driving License,2023-07-16,2030-07-14,0.94,0.96,1,0,none,2555,97.6,[],trusted,No document anomalies detected
+DOC00599,PAN,2021-11-13,2031-11-11,0.95,0.95,1,0,none,3650,93.1,[],trusted,No document anomalies detected
+DOC00600,PAN,2021-07-15,2028-07-13,0.94,0.97,1,0,none,2555,97.1,[],trusted,No document anomalies detected
+DOC00601,Aadhaar,2022-10-06,2032-10-03,0.9,0.99,1,0,none,3650,89.1,[],trusted,No document anomalies detected
+DOC00602,Aadhaar,2020-10-24,2027-10-23,0.92,0.89,1,0,none,2555,98.2,[],trusted,No document anomalies detected
+DOC00603,Driving License,2016-01-05,2021-01-03,0.99,0.89,1,0,none,1825,85.3,[],trusted,No document anomalies detected
+DOC00604,Driving License,2016-06-29,2026-06-27,0.91,0.95,1,0,none,3650,94.6,[],trusted,No document anomalies detected
+DOC00605,PAN,2021-04-25,2028-04-23,0.96,0.9,1,0,none,2555,97.5,[],trusted,No document anomalies detected
+DOC00606,Passport,2021-06-12,2020-11-12,0.85,0.94,1,1,expiry_before_issue,-212,34.8,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00607,Driving License,2020-10-13,2025-10-12,0.93,0.96,1,0,none,1825,93.9,[],trusted,No document anomalies detected
+DOC00608,PAN,2024-02-27,2031-02-25,0.89,0.97,1,0,none,2555,97.3,[],trusted,No document anomalies detected
+DOC00609,Driving License,2021-06-18,2026-06-17,0.96,0.98,1,0,none,1825,90.0,[],trusted,No document anomalies detected
+DOC00610,Aadhaar,2023-03-13,2031-03-11,0.96,0.95,1,0,none,2920,97.8,[],trusted,No document anomalies detected
+DOC00611,Aadhaar,2020-12-12,2029-12-10,0.93,0.98,1,0,none,3285,95.5,[],trusted,No document anomalies detected
+DOC00612,PAN,2015-12-29,2021-12-27,0.88,0.95,1,0,none,2190,98.0,[],trusted,No document anomalies detected
+DOC00613,PAN,2016-02-25,2023-02-23,0.96,0.97,1,0,none,2555,96.0,[],trusted,No document anomalies detected
+DOC00614,Aadhaar,2015-03-21,2020-03-19,0.87,0.9,1,0,none,1825,93.6,[],trusted,No document anomalies detected
+DOC00615,PAN,2017-12-06,2022-12-05,0.98,0.97,1,0,none,1825,87.6,[],trusted,No document anomalies detected
+DOC00616,Voter ID,2020-03-15,2029-03-13,0.87,0.92,1,0,none,3285,97.4,[],trusted,No document anomalies detected
+DOC00617,Driving License,2016-02-26,2023-02-24,0.96,0.98,1,0,none,2555,95.3,[],trusted,No document anomalies detected
+DOC00618,PAN,2015-07-05,2022-07-03,0.92,0.87,1,0,none,2555,96.5,[],trusted,No document anomalies detected
+DOC00619,Driving License,2021-07-27,2030-07-25,0.88,0.85,1,0,none,3285,89.4,[],trusted,No document anomalies detected
+DOC00620,Aadhaar,2016-05-14,2021-05-13,0.87,0.86,1,0,none,1825,89.1,[],trusted,No document anomalies detected
+DOC00621,PAN,2021-01-27,2030-01-25,0.95,0.96,1,0,none,3285,95.8,[],trusted,No document anomalies detected
+DOC00622,PAN,2016-08-26,2026-08-24,0.91,0.98,1,0,none,3650,91.5,[],trusted,No document anomalies detected
+DOC00623,Driving License,2016-11-04,2021-11-03,0.87,0.88,1,0,none,1825,92.1,[],trusted,No document anomalies detected
+DOC00624,Driving License,2022-10-13,2030-10-11,0.94,0.93,1,0,none,2920,99.2,[],trusted,No document anomalies detected
+DOC00625,Voter ID,2020-11-22,2025-11-21,0.87,0.99,1,0,none,1825,89.7,[],trusted,No document anomalies detected
+DOC00626,Aadhaar,2023-09-18,2030-09-16,0.94,0.94,1,0,none,2555,98.9,[],trusted,No document anomalies detected
+DOC00627,PAN,2024-05-27,2031-05-26,0.9,0.94,1,0,none,2555,99.1,[],trusted,No document anomalies detected
+DOC00628,Voter ID,2024-01-08,2031-01-06,0.86,0.9,1,0,none,2555,96.0,[],trusted,No document anomalies detected
+DOC00629,Voter ID,2015-08-08,2022-08-06,0.94,0.94,1,0,none,2555,98.9,[],trusted,No document anomalies detected
+DOC00630,Passport,2017-10-18,2025-10-16,0.92,0.86,1,0,none,2920,95.8,[],trusted,No document anomalies detected
+DOC00631,Aadhaar,2019-02-01,2024-01-31,0.9,1.0,1,0,none,1825,87.2,[],trusted,No document anomalies detected
+DOC00632,Aadhaar,2018-08-21,2026-08-19,0.98,0.97,1,0,none,2920,92.3,[],trusted,No document anomalies detected
+DOC00633,Aadhaar,2017-07-12,2023-07-11,0.86,0.86,1,0,none,2190,90.9,[],trusted,No document anomalies detected
+DOC00634,Driving License,2023-09-16,2031-09-14,0.88,0.97,1,0,none,2920,96.8,[],trusted,No document anomalies detected
+DOC00635,Aadhaar,2015-05-21,2025-05-18,0.88,0.88,1,0,none,3650,92.3,[],trusted,No document anomalies detected
+DOC00636,Voter ID,2018-01-24,2028-01-22,0.89,0.96,1,0,none,3650,92.8,[],trusted,No document anomalies detected
+DOC00637,Aadhaar,2021-12-19,2026-12-18,0.92,0.98,1,0,none,1825,93.5,[],trusted,No document anomalies detected
+DOC00638,Voter ID,2015-02-25,2023-02-23,0.86,0.86,1,0,none,2920,92.6,[],trusted,No document anomalies detected
+DOC00639,Aadhaar,2018-03-23,2023-03-22,0.97,0.87,1,0,none,1825,91.3,[],trusted,No document anomalies detected
+DOC00640,PAN,2016-05-08,2021-05-07,0.95,0.94,1,0,none,1825,93.8,[],trusted,No document anomalies detected
+DOC00641,Voter ID,2018-01-04,2023-01-03,0.88,0.89,1,0,none,1825,94.1,[],trusted,No document anomalies detected
+DOC00642,Voter ID,2016-08-30,2024-08-28,0.95,0.85,1,0,none,2920,90.4,[],trusted,No document anomalies detected
+DOC00643,PAN,2024-12-04,2031-12-03,0.98,0.86,1,0,none,2555,90.9,[],trusted,No document anomalies detected
+DOC00644,Voter ID,2018-03-26,2025-03-24,0.87,0.95,1,0,none,2555,97.8,[],trusted,No document anomalies detected
+DOC00645,Aadhaar,2023-04-21,2032-04-18,0.87,1.0,1,0,none,3285,88.6,[],trusted,No document anomalies detected
+DOC00646,Driving License,2021-11-03,2031-11-01,0.91,0.86,1,0,none,3650,91.7,[],trusted,No document anomalies detected
+DOC00647,Driving License,2017-04-04,2026-04-02,0.87,0.93,1,0,none,3285,96.8,[],trusted,No document anomalies detected
+DOC00648,Driving License,2024-12-31,2033-12-29,0.97,0.89,1,0,none,3285,95.3,[],trusted,No document anomalies detected
+DOC00649,Driving License,2020-04-04,2027-04-03,0.91,0.94,1,0,none,2555,99.3,[],trusted,No document anomalies detected
+DOC00650,Passport,2017-06-26,2026-06-24,0.43,0.96,1,1,face_mismatch,3285,40.1,['Face match score is low (0.43)'],review,Face match score is low (0.43)
+DOC00651,Voter ID,2019-06-12,2024-06-10,0.9,0.91,1,0,none,1825,95.9,[],trusted,No document anomalies detected
+DOC00652,PAN,2024-08-31,2030-08-30,0.97,0.99,1,0,none,2190,89.3,[],trusted,No document anomalies detected
+DOC00653,Passport,2020-07-05,2027-07-04,0.91,1.0,1,0,none,2555,91.4,[],trusted,No document anomalies detected
+DOC00654,PAN,2018-04-25,2023-04-24,0.87,0.97,1,0,none,1825,93.1,[],trusted,No document anomalies detected
+DOC00655,PAN,2021-03-07,2026-03-06,0.98,0.93,1,0,none,1825,89.4,[],trusted,No document anomalies detected
+DOC00656,Passport,2019-12-08,2029-12-05,0.95,0.86,1,0,none,3650,90.2,[],trusted,No document anomalies detected
+DOC00657,Driving License,2024-05-10,2032-05-08,0.97,0.95,1,0,none,2920,96.9,[],trusted,No document anomalies detected
+DOC00658,Aadhaar,2020-11-03,2026-11-02,0.93,0.94,1,0,none,2190,98.6,[],trusted,No document anomalies detected
+DOC00659,PAN,2019-09-04,2026-09-02,0.87,0.98,1,0,none,2555,95.8,[],trusted,No document anomalies detected
+DOC00660,PAN,2022-07-29,2028-07-27,0.92,0.94,1,0,none,2190,99.0,[],trusted,No document anomalies detected
+DOC00661,Passport,2024-03-17,2033-03-15,0.87,0.94,1,0,none,3285,96.5,[],trusted,No document anomalies detected
+DOC00662,Driving License,2018-01-05,2028-01-03,0.88,0.96,1,0,none,3650,92.6,[],trusted,No document anomalies detected
+DOC00663,PAN,2019-08-19,2024-08-17,0.85,0.87,1,0,none,1825,86.8,[],trusted,No document anomalies detected
+DOC00664,Voter ID,2021-07-27,2020-10-16,0.88,0.91,1,1,expiry_before_issue,-284,37.6,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00665,Voter ID,2016-09-04,2024-09-02,0.97,0.85,1,0,none,2920,89.6,[],trusted,No document anomalies detected
+DOC00666,Passport,2024-10-14,2033-10-12,0.93,0.86,1,0,none,3285,95.3,[],trusted,No document anomalies detected
+DOC00667,Driving License,2024-07-20,2032-07-18,0.9,0.89,1,0,none,2920,98.7,[],trusted,No document anomalies detected
+DOC00668,Passport,2023-02-09,2030-02-07,0.87,0.92,1,0,none,2555,98.9,[],trusted,No document anomalies detected
+DOC00669,Driving License,2020-11-24,2029-11-22,0.9,0.89,1,0,none,3285,97.7,[],trusted,No document anomalies detected
+DOC00670,Passport,2015-01-28,2025-01-25,0.94,0.89,1,0,none,3650,93.5,[],trusted,No document anomalies detected
+DOC00671,Driving License,2019-04-09,2027-04-07,0.99,0.89,1,0,none,2920,91.1,[],trusted,No document anomalies detected
+DOC00672,Voter ID,2018-05-30,2024-05-28,0.99,0.87,1,0,none,2190,87.6,[],trusted,No document anomalies detected
+DOC00673,Driving License,2021-07-10,2027-07-09,0.98,0.86,1,0,none,2190,89.4,[],trusted,No document anomalies detected
+DOC00674,Passport,2018-08-19,2027-08-17,0.85,0.86,1,0,none,3285,89.0,[],trusted,No document anomalies detected
+DOC00675,Passport,2017-04-16,2025-04-14,0.95,0.88,1,0,none,2920,97.3,[],trusted,No document anomalies detected
+DOC00676,Aadhaar,2015-04-15,2020-04-13,0.89,0.95,1,0,none,1825,95.5,[],trusted,No document anomalies detected
+DOC00677,Driving License,2018-05-13,2027-05-11,0.85,0.93,1,0,none,3285,92.3,[],trusted,No document anomalies detected
+DOC00678,Voter ID,2021-12-14,2029-12-12,0.91,0.87,1,0,none,2920,97.3,[],trusted,No document anomalies detected
+DOC00679,Voter ID,2023-02-26,2033-02-23,0.98,0.9,1,0,none,3650,89.5,[],trusted,No document anomalies detected
+DOC00680,Driving License,2019-01-05,2024-01-04,0.89,0.95,1,0,none,1825,95.5,[],trusted,No document anomalies detected
+DOC00681,Passport,2020-01-30,2025-01-28,0.97,0.88,1,0,none,1825,91.0,[],trusted,No document anomalies detected
+DOC00682,Voter ID,2017-07-28,2022-07-27,0.87,0.99,1,0,none,1825,89.7,[],trusted,No document anomalies detected
+DOC00683,Voter ID,2019-07-01,2029-06-28,0.91,0.93,1,0,none,3650,95.2,[],trusted,No document anomalies detected
+DOC00684,Voter ID,2016-09-23,2022-09-22,0.91,0.97,1,0,none,2190,97.1,[],trusted,No document anomalies detected
+DOC00685,Driving License,2019-07-04,2027-07-02,0.91,0.96,1,0,none,2920,98.2,[],trusted,No document anomalies detected
+DOC00686,Voter ID,2018-11-07,2028-11-04,0.92,0.86,1,0,none,3650,91.0,[],trusted,No document anomalies detected
+DOC00687,Aadhaar,2016-11-30,2023-11-29,0.92,0.98,1,0,none,2555,97.0,[],trusted,No document anomalies detected
+DOC00688,Aadhaar,2024-04-06,2031-04-05,0.92,0.91,1,0,none,2555,99.5,[],trusted,No document anomalies detected
+DOC00689,Aadhaar,2022-05-10,2029-05-08,0.85,0.96,1,0,none,2555,92.7,[],trusted,No document anomalies detected
+DOC00690,Voter ID,2024-12-16,2032-12-14,0.9,0.9,1,0,none,2920,99.1,[],trusted,No document anomalies detected
+DOC00691,Voter ID,2018-04-02,2027-03-31,0.9,0.91,1,0,none,3285,98.3,[],trusted,No document anomalies detected
+DOC00692,PAN,2019-08-16,2025-08-14,0.9,0.89,1,0,none,2190,97.7,[],trusted,No document anomalies detected
+DOC00693,Voter ID,2021-10-06,2026-10-05,0.91,0.86,1,0,none,1825,92.5,[],trusted,No document anomalies detected
+DOC00694,Aadhaar,2022-10-04,2030-10-02,0.88,0.92,1,0,none,2920,99.5,[],trusted,No document anomalies detected
+DOC00695,Aadhaar,2018-06-10,2017-12-07,0.97,0.91,1,1,expiry_before_issue,-185,37.0,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00696,Aadhaar,2021-07-29,2026-07-28,0.93,0.98,1,0,none,1825,92.8,[],trusted,No document anomalies detected
+DOC00697,PAN,2016-12-18,2024-12-16,0.96,0.96,1,0,none,2920,96.5,[],trusted,No document anomalies detected
+DOC00698,Voter ID,2017-12-25,2027-12-23,0.94,0.94,1,0,none,3650,94.4,[],trusted,No document anomalies detected
+DOC00699,Voter ID,2016-08-11,2025-08-09,0.88,0.87,1,0,none,3285,95.6,[],trusted,No document anomalies detected
+DOC00700,Voter ID,2016-05-12,2022-05-11,0.86,0.86,1,0,none,2190,90.9,[],trusted,No document anomalies detected
+DOC00701,Voter ID,2016-03-12,2021-03-11,0.94,0.94,1,0,none,1825,95.1,[],trusted,No document anomalies detected
+DOC00702,PAN,2020-11-10,2028-11-08,0.86,0.98,1,0,none,2920,93.5,[],trusted,No document anomalies detected
+DOC00703,Voter ID,2019-10-30,2024-10-28,0.91,0.93,1,0,none,1825,96.1,[],trusted,No document anomalies detected
+DOC00704,Voter ID,2018-08-15,2024-08-13,0.86,0.98,1,0,none,2190,92.8,[],trusted,No document anomalies detected
+DOC00705,Passport,2018-02-02,2024-02-01,0.86,0.88,1,0,none,2190,93.0,[],trusted,No document anomalies detected
+DOC00706,Aadhaar,2024-08-20,2024-01-25,0.92,0.92,1,1,expiry_before_issue,-208,38.6,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00707,Voter ID,2019-04-29,2024-04-27,0.92,0.99,1,0,none,1825,91.2,[],trusted,No document anomalies detected
+DOC00708,Driving License,2021-07-14,2020-11-01,0.85,0.95,1,1,expiry_before_issue,-255,33.7,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00709,PAN,2017-10-18,2022-10-17,0.35,0.97,1,1,face_mismatch,1825,34.4,['Face match score is low (0.35)'],high_risk,Face match score is low (0.35)
+DOC00710,Voter ID,2024-08-01,2030-07-31,0.94,0.97,1,0,none,2190,96.1,[],trusted,No document anomalies detected
+DOC00711,Driving License,2018-05-28,2026-05-26,0.97,0.97,1,0,none,2920,94.6,[],trusted,No document anomalies detected
+DOC00712,Driving License,2015-10-04,2021-10-02,0.87,0.93,1,0,none,2190,97.5,[],trusted,No document anomalies detected
+DOC00713,Voter ID,2017-06-25,2025-06-23,0.96,0.97,1,0,none,2920,95.5,[],trusted,No document anomalies detected
+DOC00714,Driving License,2015-04-02,2021-03-31,0.98,0.91,1,0,none,2190,92.8,[],trusted,No document anomalies detected
+DOC00715,PAN,2019-01-07,2027-01-05,0.85,0.96,1,0,none,2920,92.6,[],trusted,No document anomalies detected
+DOC00716,Passport,2019-06-11,2028-06-08,0.89,0.95,1,0,none,3285,97.5,[],trusted,No document anomalies detected
+DOC00717,Passport,2020-12-26,2028-12-24,0.86,0.9,1,0,none,2920,96.1,[],trusted,No document anomalies detected
+DOC00718,Aadhaar,2016-05-19,2024-05-17,0.94,0.87,1,0,none,2920,97.1,[],trusted,No document anomalies detected
+DOC00719,Passport,2021-03-18,2027-03-17,0.89,0.87,1,0,none,2190,95.8,[],trusted,No document anomalies detected
+DOC00720,Driving License,2018-03-07,2025-03-05,0.97,0.97,1,0,none,2555,95.0,[],trusted,No document anomalies detected
+DOC00721,Aadhaar,2018-02-17,2028-02-15,0.94,0.93,1,0,none,3650,94.7,[],trusted,No document anomalies detected
+DOC00722,PAN,2017-09-17,2022-09-16,0.54,0.89,1,1,face_mismatch,1825,44.9,['Face match score is low (0.54)'],review,Face match score is low (0.54)
+DOC00723,Voter ID,2024-05-13,2030-05-12,0.95,0.86,1,0,none,2190,93.8,[],trusted,No document anomalies detected
+DOC00724,Driving License,2024-05-18,2030-05-17,0.94,0.88,1,0,none,2190,96.1,[],trusted,No document anomalies detected
+DOC00725,Passport,2017-06-05,2027-06-03,0.85,0.99,1,0,none,3650,83.0,[],trusted,No document anomalies detected
+DOC00726,Voter ID,2017-05-02,2024-04-30,0.89,1.0,1,0,none,2555,91.1,[],trusted,No document anomalies detected
+DOC00727,Voter ID,2017-04-17,2023-04-16,0.95,0.95,1,0,none,2190,97.0,[],trusted,No document anomalies detected
+DOC00728,PAN,2022-12-03,2029-12-01,0.94,1.0,1,0,none,2555,90.3,[],trusted,No document anomalies detected
+DOC00729,Driving License,2021-08-03,2028-08-01,0.88,1.0,1,0,none,2555,90.4,[],trusted,No document anomalies detected
+DOC00730,Driving License,2021-10-27,2030-10-25,0.9,0.86,1,0,none,3285,95.7,[],trusted,No document anomalies detected
+DOC00731,Aadhaar,2022-08-08,2031-08-06,0.98,0.86,1,0,none,3285,90.8,[],trusted,No document anomalies detected
+DOC00732,Passport,2023-04-03,2031-04-01,0.92,0.98,1,0,none,2920,96.1,[],trusted,No document anomalies detected
+DOC00733,Voter ID,2016-08-17,2021-08-16,0.89,0.42,1,1,font_inconsistency,1825,39.4,['Document font/formatting inconsistency detected (score 0.42)'],high_risk,Document font/formatting inconsistency detected (score 0.42)
+DOC00734,Aadhaar,2022-10-16,2028-10-14,0.94,0.95,1,0,none,2190,98.0,[],trusted,No document anomalies detected
+DOC00735,PAN,2018-08-07,2024-08-05,0.87,0.96,1,0,none,2190,96.4,[],trusted,No document anomalies detected
+DOC00736,Aadhaar,2015-10-06,2024-10-03,0.97,0.87,1,0,none,3285,94.3,[],trusted,No document anomalies detected
+DOC00737,Voter ID,2023-07-04,2030-07-02,0.98,0.99,1,0,none,2555,89.6,[],trusted,No document anomalies detected
+DOC00738,Passport,2015-12-27,2021-12-25,0.89,0.99,1,0,none,2190,93.3,[],trusted,No document anomalies detected
+DOC00739,Driving License,2018-03-02,2025-02-28,0.98,0.87,1,0,none,2555,93.2,[],trusted,No document anomalies detected
+DOC00740,Driving License,2023-09-10,2033-09-07,0.95,0.99,1,0,none,3650,88.8,[],trusted,No document anomalies detected
+DOC00741,PAN,2018-02-06,2024-02-05,0.97,0.87,1,0,none,2190,94.5,[],trusted,No document anomalies detected
+DOC00742,Passport,2019-08-17,2018-08-15,0.91,0.93,1,1,expiry_before_issue,-367,36.3,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00743,Driving License,2017-10-14,2025-10-12,0.9,0.91,1,0,none,2920,99.6,[],trusted,No document anomalies detected
+DOC00744,Aadhaar,2017-01-14,2024-01-13,0.86,0.85,1,0,none,2555,86.9,[],trusted,No document anomalies detected
+DOC00745,Voter ID,2023-03-26,2029-03-24,0.89,0.91,1,0,none,2190,98.7,[],trusted,No document anomalies detected
+DOC00746,Aadhaar,2019-07-16,2024-07-14,0.93,0.99,1,0,none,1825,90.3,[],trusted,No document anomalies detected
+DOC00747,Driving License,2017-03-22,2024-03-20,0.86,0.9,1,0,none,2555,96.0,[],trusted,No document anomalies detected
+DOC00748,Aadhaar,2021-03-12,2028-03-10,0.97,0.97,1,0,none,2555,95.0,[],trusted,No document anomalies detected
+DOC00749,PAN,2021-05-01,2027-04-30,0.87,0.95,1,0,none,2190,97.4,[],trusted,No document anomalies detected
+DOC00750,Voter ID,2017-11-09,2025-11-07,0.86,0.99,1,0,none,2920,91.8,[],trusted,No document anomalies detected
+DOC00751,Voter ID,2018-11-30,2023-11-29,0.89,0.94,1,0,none,1825,95.5,[],trusted,No document anomalies detected
+DOC00752,Passport,2015-06-25,2024-06-22,0.92,0.93,1,0,none,3285,98.4,[],trusted,No document anomalies detected
+DOC00753,Aadhaar,2017-09-28,2027-09-26,0.88,0.9,1,0,none,3650,93.4,[],trusted,No document anomalies detected
+DOC00754,Passport,2017-05-10,2024-05-08,0.89,0.94,1,0,none,2555,99.2,[],trusted,No document anomalies detected
+DOC00755,Aadhaar,2019-09-05,2029-09-02,0.91,0.94,1,0,none,3650,95.0,[],trusted,No document anomalies detected
+DOC00756,Voter ID,2024-04-17,2030-04-16,0.93,0.95,1,0,none,2190,98.5,[],trusted,No document anomalies detected
+DOC00757,Aadhaar,2018-11-30,2026-11-28,0.99,0.93,1,0,none,2920,91.3,[],trusted,No document anomalies detected
+DOC00758,Passport,2022-10-03,2031-10-01,0.93,0.94,1,0,none,3285,98.0,[],trusted,No document anomalies detected
+DOC00759,Driving License,2020-09-14,2025-09-13,0.93,0.91,1,0,none,1825,95.2,[],trusted,No document anomalies detected
+DOC00760,PAN,2019-10-21,2029-10-18,0.88,0.93,1,0,none,3650,94.7,[],trusted,No document anomalies detected
+DOC00761,PAN,2020-06-28,2026-06-27,0.88,0.95,1,0,none,2190,98.0,[],trusted,No document anomalies detected
+DOC00762,Voter ID,2017-12-05,2026-12-03,0.51,0.97,1,1,face_mismatch,3285,42.3,['Face match score is low (0.51)'],review,Face match score is low (0.51)
+DOC00763,PAN,2021-02-05,2028-02-04,0.96,0.88,1,0,none,2555,96.4,[],trusted,No document anomalies detected
+DOC00764,Aadhaar,2016-11-19,2023-11-18,0.85,0.88,1,0,none,2555,91.1,[],trusted,No document anomalies detected
+DOC00765,Aadhaar,2017-04-04,2027-04-02,0.93,0.87,1,0,none,3650,92.1,[],trusted,No document anomalies detected
+DOC00766,PAN,2022-09-11,2032-09-08,0.86,1.0,1,0,none,3650,82.2,[],trusted,No document anomalies detected
+DOC00767,Driving License,2017-09-01,2027-08-30,0.9,0.86,1,0,none,3650,91.3,[],trusted,No document anomalies detected
+DOC00768,Voter ID,2022-10-03,2030-10-01,0.92,0.95,1,0,none,2920,99.3,[],trusted,No document anomalies detected
+DOC00769,Passport,2022-10-30,2029-10-28,0.91,0.87,1,0,none,2555,97.0,[],trusted,No document anomalies detected
+DOC00770,PAN,2021-08-03,2030-08-01,0.92,0.86,1,0,none,3285,95.2,[],trusted,No document anomalies detected
+DOC00771,Aadhaar,2021-02-23,2029-02-21,0.95,0.99,1,0,none,2920,92.9,[],trusted,No document anomalies detected
+DOC00772,PAN,2022-08-05,2032-08-02,0.86,0.94,1,0,none,3650,91.3,[],trusted,No document anomalies detected
+DOC00773,Driving License,2024-05-31,2032-05-29,0.97,0.95,1,0,none,2920,96.9,[],trusted,No document anomalies detected
+DOC00774,Aadhaar,2022-09-27,2029-09-25,0.87,0.86,1,0,none,2555,93.3,[],trusted,No document anomalies detected
+DOC00775,Driving License,2017-04-25,2017-02-24,0.91,0.86,1,1,expiry_before_issue,-60,37.4,['Expiry date precedes or matches issue date'],high_risk,Expiry date precedes or matches issue date
+DOC00776,Passport,2017-03-18,2022-03-17,0.97,0.93,1,0,none,1825,92.3,[],trusted,No document anomalies detected
+DOC00777,Driving License,2016-04-07,2022-04-06,0.89,0.97,1,0,none,2190,96.8,[],trusted,No document anomalies detected
+DOC00778,Driving License,2021-05-20,2028-05-18,0.88,0.93,1,0,none,2555,98.9,[],trusted,No document anomalies detected
+DOC00779,Voter ID,2015-10-22,2020-10-20,0.92,0.87,1,0,none,1825,93.7,[],trusted,No document anomalies detected
+DOC00780,Driving License,2015-12-10,2025-12-07,0.96,0.41,1,1,font_inconsistency,3650,35.9,['Document font/formatting inconsistency detected (score 0.41)'],high_risk,Document font/formatting inconsistency detected (score 0.41)
+DOC00781,Aadhaar,2022-03-27,2030-03-25,0.88,0.91,1,0,none,2920,99.3,[],trusted,No document anomalies detected
+DOC00782,Driving License,2017-02-16,2026-02-14,0.89,0.99,1,0,none,3285,93.9,[],trusted,No document anomalies detected
+DOC00783,Passport,2016-01-08,2026-01-05,0.94,0.99,1,0,none,3650,89.7,[],trusted,No document anomalies detected
+DOC00784,Voter ID,2023-03-12,2033-03-09,0.96,0.97,1,0,none,3650,91.0,[],trusted,No document anomalies detected
+DOC00785,PAN,2015-11-17,2021-11-15,0.89,0.98,1,0,none,2190,95.7,[],trusted,No document anomalies detected
+DOC00786,Aadhaar,2023-09-08,2031-09-06,0.9,0.97,1,0,none,2920,97.1,[],trusted,No document anomalies detected
+DOC00787,Passport,2019-02-15,2025-02-13,0.95,0.93,1,0,none,2190,97.4,[],trusted,No document anomalies detected
+DOC00788,Voter ID,2024-06-26,2034-06-24,0.87,0.94,1,0,none,3650,92.9,[],trusted,No document anomalies detected
+DOC00789,Passport,2023-04-29,2032-04-26,0.94,0.95,1,0,none,3285,97.5,[],trusted,No document anomalies detected
+DOC00790,PAN,2022-04-05,2029-04-03,0.86,0.89,1,0,none,2555,95.2,[],trusted,No document anomalies detected
+DOC00791,Passport,2016-07-12,2025-07-10,0.93,0.98,1,0,none,3285,95.5,[],trusted,No document anomalies detected
+DOC00792,Passport,2017-09-07,2022-09-06,0.88,0.98,1,0,none,1825,92.5,[],trusted,No document anomalies detected
+DOC00793,Voter ID,2024-01-02,2028-12-31,0.99,0.86,0,1,invalid_number_format,1825,26.3,['Document number fails format/checksum validation'],high_risk,Document number fails format/checksum validation
+DOC00794,Driving License,2019-09-29,2027-09-27,0.95,0.91,1,0,none,2920,98.9,[],trusted,No document anomalies detected
+DOC00795,Passport,2021-10-04,2030-10-02,0.87,0.88,1,0,none,3285,95.3,[],trusted,No document anomalies detected
+DOC00796,PAN,2022-09-18,2028-09-16,0.9,0.85,1,0,none,2190,89.0,[],trusted,No document anomalies detected
+DOC00797,Driving License,2022-02-21,2030-02-19,0.95,0.92,1,0,none,2920,99.2,[],trusted,No document anomalies detected
+DOC00798,Aadhaar,2024-07-16,2032-07-14,0.9,0.98,1,0,none,2920,96.1,[],trusted,No document anomalies detected
+DOC00799,PAN,2023-02-09,2030-02-07,0.99,0.92,1,0,none,2555,92.3,[],trusted,No document anomalies detected
